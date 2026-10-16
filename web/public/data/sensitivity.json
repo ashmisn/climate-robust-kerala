@@ -1,0 +1,20 @@
+{
+  "90_vs_95": {
+    "overlap_count_top15": 3,
+    "jaccard_overlap": 0.111,
+    "degree_rank_correlation": 0.406,
+    "betweenness_rank_correlation": 0.307
+  },
+  "95_vs_97": {
+    "overlap_count_top15": 3,
+    "jaccard_overlap": 0.111,
+    "degree_rank_correlation": 0.557,
+    "betweenness_rank_correlation": 0.324
+  },
+  "90_vs_97": {
+    "overlap_count_top15": 1,
+    "jaccard_overlap": 0.034,
+    "degree_rank_correlation": 0.403,
+    "betweenness_rank_correlation": 0.174
+  }
+}

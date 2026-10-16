@@ -1,0 +1,4743 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_001",
+        "lat": 8.25,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.99,
+        "max_slope": 6.6,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0392,
+        "betweenness": 0.0187,
+        "clustering": 0.0,
+        "eigenvector": 0.0121
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              8.125
+            ],
+            [
+              76.875,
+              8.125
+            ],
+            [
+              76.875,
+              8.375
+            ],
+            [
+              76.625,
+              8.375
+            ],
+            [
+              76.625,
+              8.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_002",
+        "lat": 8.25,
+        "lon": 77.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.73,
+        "max_slope": 6.43,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.1078,
+        "betweenness": 0.0525,
+        "clustering": 0.0749,
+        "eigenvector": 0.0718
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              8.125
+            ],
+            [
+              77.125,
+              8.125
+            ],
+            [
+              77.125,
+              8.375
+            ],
+            [
+              76.875,
+              8.375
+            ],
+            [
+              76.875,
+              8.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_003",
+        "lat": 8.25,
+        "lon": 77.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.78,
+        "max_slope": 7.28,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0196,
+        "betweenness": 0.0005,
+        "clustering": 0.0,
+        "eigenvector": 0.0148
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.125,
+              8.125
+            ],
+            [
+              77.375,
+              8.125
+            ],
+            [
+              77.375,
+              8.375
+            ],
+            [
+              77.125,
+              8.375
+            ],
+            [
+              77.125,
+              8.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_004",
+        "lat": 8.25,
+        "lon": 77.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.12,
+        "max_slope": 6.62,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0196,
+        "betweenness": 0.0009,
+        "clustering": 0.0,
+        "eigenvector": 0.0396
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.375,
+              8.125
+            ],
+            [
+              77.625,
+              8.125
+            ],
+            [
+              77.625,
+              8.375
+            ],
+            [
+              77.375,
+              8.375
+            ],
+            [
+              77.375,
+              8.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_005",
+        "lat": 8.5,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 32.08,
+        "max_slope": 53.38,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0294,
+        "betweenness": 0.0028,
+        "clustering": 0.0,
+        "eigenvector": 0.0141
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              8.375
+            ],
+            [
+              76.875,
+              8.375
+            ],
+            [
+              76.875,
+              8.625
+            ],
+            [
+              76.625,
+              8.625
+            ],
+            [
+              76.625,
+              8.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_006",
+        "lat": 8.5,
+        "lon": 77.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 25.66,
+        "max_slope": 45.76,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.001
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              8.375
+            ],
+            [
+              77.125,
+              8.375
+            ],
+            [
+              77.125,
+              8.625
+            ],
+            [
+              76.875,
+              8.625
+            ],
+            [
+              76.875,
+              8.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_007",
+        "lat": 8.5,
+        "lon": 77.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.38,
+        "max_slope": 6.43,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.1373,
+        "betweenness": 0.0814,
+        "clustering": 0.0903,
+        "eigenvector": 0.0753
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.125,
+              8.375
+            ],
+            [
+              77.375,
+              8.375
+            ],
+            [
+              77.375,
+              8.625
+            ],
+            [
+              77.125,
+              8.625
+            ],
+            [
+              77.125,
+              8.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_008",
+        "lat": 8.75,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 18.38,
+        "max_slope": 36.21,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0686,
+        "betweenness": 0.0162,
+        "clustering": 0.1183,
+        "eigenvector": 0.0508
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              8.625
+            ],
+            [
+              76.625,
+              8.625
+            ],
+            [
+              76.625,
+              8.875
+            ],
+            [
+              76.375,
+              8.875
+            ],
+            [
+              76.375,
+              8.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_009",
+        "lat": 8.75,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 32.85,
+        "max_slope": 57.36,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0294,
+        "betweenness": 0.0073,
+        "clustering": 0.0,
+        "eigenvector": 0.0375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              8.625
+            ],
+            [
+              76.875,
+              8.625
+            ],
+            [
+              76.875,
+              8.875
+            ],
+            [
+              76.625,
+              8.875
+            ],
+            [
+              76.625,
+              8.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_010",
+        "lat": 8.75,
+        "lon": 77.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 24.7,
+        "max_slope": 45.43,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0686,
+        "betweenness": 0.0241,
+        "clustering": 0.0,
+        "eigenvector": 0.021
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              8.625
+            ],
+            [
+              77.125,
+              8.625
+            ],
+            [
+              77.125,
+              8.875
+            ],
+            [
+              76.875,
+              8.875
+            ],
+            [
+              76.875,
+              8.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_011",
+        "lat": 8.75,
+        "lon": 77.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.79,
+        "max_slope": 6.2,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0294,
+        "betweenness": 0.0023,
+        "clustering": 0.0,
+        "eigenvector": 0.0197
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.125,
+              8.625
+            ],
+            [
+              77.375,
+              8.625
+            ],
+            [
+              77.375,
+              8.875
+            ],
+            [
+              77.125,
+              8.875
+            ],
+            [
+              77.125,
+              8.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_012",
+        "lat": 9.0,
+        "lon": 76.5,
+        "basin_id": "basin_achankovil",
+        "basin_name": "Achankovil",
+        "mean_slope": 20.98,
+        "max_slope": 37.42,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0294,
+        "betweenness": 0.0016,
+        "clustering": 0.2726,
+        "eigenvector": 0.0139
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              8.875
+            ],
+            [
+              76.625,
+              8.875
+            ],
+            [
+              76.625,
+              9.125
+            ],
+            [
+              76.375,
+              9.125
+            ],
+            [
+              76.375,
+              8.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_013",
+        "lat": 9.0,
+        "lon": 76.75,
+        "basin_id": "basin_achankovil",
+        "basin_name": "Achankovil",
+        "mean_slope": 30.98,
+        "max_slope": 51.25,
+        "landslide_count_2018": 2,
+        "landslide_density": 0.00264,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0133
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              8.875
+            ],
+            [
+              76.875,
+              8.875
+            ],
+            [
+              76.875,
+              9.125
+            ],
+            [
+              76.625,
+              9.125
+            ],
+            [
+              76.625,
+              8.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_014",
+        "lat": 9.0,
+        "lon": 77.0,
+        "basin_id": "basin_achankovil",
+        "basin_name": "Achankovil",
+        "mean_slope": 24.96,
+        "max_slope": 44.85,
+        "landslide_count_2018": 3,
+        "landslide_density": 0.00397,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0084
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              8.875
+            ],
+            [
+              77.125,
+              8.875
+            ],
+            [
+              77.125,
+              9.125
+            ],
+            [
+              76.875,
+              9.125
+            ],
+            [
+              76.875,
+              8.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_015",
+        "lat": 9.0,
+        "lon": 77.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.31,
+        "max_slope": 8.1,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0009
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.125,
+              8.875
+            ],
+            [
+              77.375,
+              8.875
+            ],
+            [
+              77.375,
+              9.125
+            ],
+            [
+              77.125,
+              9.125
+            ],
+            [
+              77.125,
+              8.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_016",
+        "lat": 9.25,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 9.28,
+        "max_slope": 22.34,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.1078,
+        "betweenness": 0.0779,
+        "clustering": 0.0746,
+        "eigenvector": 0.0866
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              9.125
+            ],
+            [
+              76.375,
+              9.125
+            ],
+            [
+              76.375,
+              9.375
+            ],
+            [
+              76.125,
+              9.375
+            ],
+            [
+              76.125,
+              9.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_017",
+        "lat": 9.25,
+        "lon": 76.5,
+        "basin_id": "basin_pamba",
+        "basin_name": "Pamba",
+        "mean_slope": 21.43,
+        "max_slope": 40.55,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 8,
+        "degree": 0.1176,
+        "betweenness": 0.0343,
+        "clustering": 0.1683,
+        "eigenvector": 0.1619
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              9.125
+            ],
+            [
+              76.625,
+              9.125
+            ],
+            [
+              76.625,
+              9.375
+            ],
+            [
+              76.375,
+              9.375
+            ],
+            [
+              76.375,
+              9.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_018",
+        "lat": 9.25,
+        "lon": 76.75,
+        "basin_id": "basin_pamba",
+        "basin_name": "Pamba",
+        "mean_slope": 30.48,
+        "max_slope": 51.46,
+        "landslide_count_2018": 3,
+        "landslide_density": 0.00397,
+        "extreme_days_aug2018": 8,
+        "degree": 0.0686,
+        "betweenness": 0.0186,
+        "clustering": 0.2438,
+        "eigenvector": 0.1154
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              9.125
+            ],
+            [
+              76.875,
+              9.125
+            ],
+            [
+              76.875,
+              9.375
+            ],
+            [
+              76.625,
+              9.375
+            ],
+            [
+              76.625,
+              9.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_019",
+        "lat": 9.25,
+        "lon": 77.0,
+        "basin_id": "basin_pamba",
+        "basin_name": "Pamba",
+        "mean_slope": 21.21,
+        "max_slope": 37.7,
+        "landslide_count_2018": 24,
+        "landslide_density": 0.03174,
+        "extreme_days_aug2018": 8,
+        "degree": 0.0392,
+        "betweenness": 0.0008,
+        "clustering": 0.1378,
+        "eigenvector": 0.0617
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              9.125
+            ],
+            [
+              77.125,
+              9.125
+            ],
+            [
+              77.125,
+              9.375
+            ],
+            [
+              76.875,
+              9.375
+            ],
+            [
+              76.875,
+              9.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_020",
+        "lat": 9.25,
+        "lon": 77.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.33,
+        "max_slope": 6.94,
+        "landslide_count_2018": 12,
+        "landslide_density": 0.01587,
+        "extreme_days_aug2018": 6,
+        "degree": 0.1275,
+        "betweenness": 0.0446,
+        "clustering": 0.1191,
+        "eigenvector": 0.1684
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.125,
+              9.125
+            ],
+            [
+              77.375,
+              9.125
+            ],
+            [
+              77.375,
+              9.375
+            ],
+            [
+              77.125,
+              9.375
+            ],
+            [
+              77.125,
+              9.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_021",
+        "lat": 9.5,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 9.75,
+        "max_slope": 22.12,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 7,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              9.375
+            ],
+            [
+              76.375,
+              9.375
+            ],
+            [
+              76.375,
+              9.625
+            ],
+            [
+              76.125,
+              9.625
+            ],
+            [
+              76.125,
+              9.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_022",
+        "lat": 9.5,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 22.1,
+        "max_slope": 40.28,
+        "landslide_count_2018": 1,
+        "landslide_density": 0.00132,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0196,
+        "betweenness": 0.0,
+        "clustering": 0.8294,
+        "eigenvector": 0.0314
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              9.375
+            ],
+            [
+              76.625,
+              9.375
+            ],
+            [
+              76.625,
+              9.625
+            ],
+            [
+              76.375,
+              9.625
+            ],
+            [
+              76.375,
+              9.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_023",
+        "lat": 9.5,
+        "lon": 76.75,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 33.19,
+        "max_slope": 57.5,
+        "landslide_count_2018": 20,
+        "landslide_density": 0.02645,
+        "extreme_days_aug2018": 12,
+        "degree": 0.0392,
+        "betweenness": 0.0,
+        "clustering": 0.8446,
+        "eigenvector": 0.1107
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              9.375
+            ],
+            [
+              76.875,
+              9.375
+            ],
+            [
+              76.875,
+              9.625
+            ],
+            [
+              76.625,
+              9.625
+            ],
+            [
+              76.625,
+              9.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_024",
+        "lat": 9.5,
+        "lon": 77.0,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 21.47,
+        "max_slope": 38.81,
+        "landslide_count_2018": 52,
+        "landslide_density": 0.06876,
+        "extreme_days_aug2018": 13,
+        "degree": 0.2255,
+        "betweenness": 0.1041,
+        "clustering": 0.1332,
+        "eigenvector": 0.2867
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              9.375
+            ],
+            [
+              77.125,
+              9.375
+            ],
+            [
+              77.125,
+              9.625
+            ],
+            [
+              76.875,
+              9.625
+            ],
+            [
+              76.875,
+              9.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_025",
+        "lat": 9.75,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 5.7,
+        "max_slope": 17.21,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 4,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.027
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              9.625
+            ],
+            [
+              76.125,
+              9.625
+            ],
+            [
+              76.125,
+              9.875
+            ],
+            [
+              75.875,
+              9.875
+            ],
+            [
+              75.875,
+              9.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_026",
+        "lat": 9.75,
+        "lon": 76.25,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 10.38,
+        "max_slope": 26.72,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 7,
+        "degree": 0.0588,
+        "betweenness": 0.0029,
+        "clustering": 0.3358,
+        "eigenvector": 0.1199
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              9.625
+            ],
+            [
+              76.375,
+              9.625
+            ],
+            [
+              76.375,
+              9.875
+            ],
+            [
+              76.125,
+              9.875
+            ],
+            [
+              76.125,
+              9.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_027",
+        "lat": 9.75,
+        "lon": 76.5,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 23.55,
+        "max_slope": 42.07,
+        "landslide_count_2018": 6,
+        "landslide_density": 0.00793,
+        "extreme_days_aug2018": 11,
+        "degree": 0.1765,
+        "betweenness": 0.0507,
+        "clustering": 0.2122,
+        "eigenvector": 0.2724
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              9.625
+            ],
+            [
+              76.625,
+              9.625
+            ],
+            [
+              76.625,
+              9.875
+            ],
+            [
+              76.375,
+              9.875
+            ],
+            [
+              76.375,
+              9.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_028",
+        "lat": 9.75,
+        "lon": 76.75,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 30.31,
+        "max_slope": 50.66,
+        "landslide_count_2018": 65,
+        "landslide_density": 0.08595,
+        "extreme_days_aug2018": 12,
+        "degree": 0.049,
+        "betweenness": 0.0058,
+        "clustering": 0.2476,
+        "eigenvector": 0.0843
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              9.625
+            ],
+            [
+              76.875,
+              9.625
+            ],
+            [
+              76.875,
+              9.875
+            ],
+            [
+              76.625,
+              9.875
+            ],
+            [
+              76.625,
+              9.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_029",
+        "lat": 9.75,
+        "lon": 77.0,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 20.34,
+        "max_slope": 37.74,
+        "landslide_count_2018": 83,
+        "landslide_density": 0.10975,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0294,
+        "betweenness": 0.0002,
+        "clustering": 0.2699,
+        "eigenvector": 0.0568
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              9.625
+            ],
+            [
+              77.125,
+              9.625
+            ],
+            [
+              77.125,
+              9.875
+            ],
+            [
+              76.875,
+              9.875
+            ],
+            [
+              76.875,
+              9.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_030",
+        "lat": 10.0,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 5.57,
+        "max_slope": 17.06,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0784,
+        "betweenness": 0.0296,
+        "clustering": 0.1512,
+        "eigenvector": 0.0763
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              9.875
+            ],
+            [
+              76.125,
+              9.875
+            ],
+            [
+              76.125,
+              10.125
+            ],
+            [
+              75.875,
+              10.125
+            ],
+            [
+              75.875,
+              9.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_031",
+        "lat": 10.0,
+        "lon": 76.25,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 11.99,
+        "max_slope": 27.79,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 8,
+        "degree": 0.0294,
+        "betweenness": 0.0014,
+        "clustering": 0.2804,
+        "eigenvector": 0.0364
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              9.875
+            ],
+            [
+              76.375,
+              9.875
+            ],
+            [
+              76.375,
+              10.125
+            ],
+            [
+              76.125,
+              10.125
+            ],
+            [
+              76.125,
+              9.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_032",
+        "lat": 10.0,
+        "lon": 76.5,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 25.3,
+        "max_slope": 45.69,
+        "landslide_count_2018": 4,
+        "landslide_density": 0.00529,
+        "extreme_days_aug2018": 12,
+        "degree": 0.1078,
+        "betweenness": 0.0438,
+        "clustering": 0.1963,
+        "eigenvector": 0.1511
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              9.875
+            ],
+            [
+              76.625,
+              9.875
+            ],
+            [
+              76.625,
+              10.125
+            ],
+            [
+              76.375,
+              10.125
+            ],
+            [
+              76.375,
+              9.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_033",
+        "lat": 10.0,
+        "lon": 76.75,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 30.79,
+        "max_slope": 50.64,
+        "landslide_count_2018": 40,
+        "landslide_density": 0.05289,
+        "extreme_days_aug2018": 11,
+        "degree": 0.2549,
+        "betweenness": 0.1304,
+        "clustering": 0.1533,
+        "eigenvector": 0.357
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              9.875
+            ],
+            [
+              76.875,
+              9.875
+            ],
+            [
+              76.875,
+              10.125
+            ],
+            [
+              76.625,
+              10.125
+            ],
+            [
+              76.625,
+              9.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_034",
+        "lat": 10.0,
+        "lon": 77.0,
+        "basin_id": "basin_periyar",
+        "basin_name": "Periyar",
+        "mean_slope": 17.59,
+        "max_slope": 36.21,
+        "landslide_count_2018": 78,
+        "landslide_density": 0.10314,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0784,
+        "betweenness": 0.0014,
+        "clustering": 0.5787,
+        "eigenvector": 0.1685
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              9.875
+            ],
+            [
+              77.125,
+              9.875
+            ],
+            [
+              77.125,
+              10.125
+            ],
+            [
+              76.875,
+              10.125
+            ],
+            [
+              76.875,
+              9.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_035",
+        "lat": 10.25,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 7.78,
+        "max_slope": 21.55,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0196,
+        "betweenness": 0.0003,
+        "clustering": 0.0,
+        "eigenvector": 0.0092
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              10.125
+            ],
+            [
+              76.125,
+              10.125
+            ],
+            [
+              76.125,
+              10.375
+            ],
+            [
+              75.875,
+              10.375
+            ],
+            [
+              75.875,
+              10.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_036",
+        "lat": 10.25,
+        "lon": 76.25,
+        "basin_id": "basin_chalakudy",
+        "basin_name": "Chalakudy",
+        "mean_slope": 12.76,
+        "max_slope": 29.53,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 4,
+        "degree": 0.1078,
+        "betweenness": 0.0283,
+        "clustering": 0.1686,
+        "eigenvector": 0.1536
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              10.125
+            ],
+            [
+              76.375,
+              10.125
+            ],
+            [
+              76.375,
+              10.375
+            ],
+            [
+              76.125,
+              10.375
+            ],
+            [
+              76.125,
+              10.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_037",
+        "lat": 10.25,
+        "lon": 76.5,
+        "basin_id": "basin_chalakudy",
+        "basin_name": "Chalakudy",
+        "mean_slope": 26.37,
+        "max_slope": 46.12,
+        "landslide_count_2018": 5,
+        "landslide_density": 0.00661,
+        "extreme_days_aug2018": 10,
+        "degree": 0.0196,
+        "betweenness": 0.0001,
+        "clustering": 0.0,
+        "eigenvector": 0.0282
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              10.125
+            ],
+            [
+              76.625,
+              10.125
+            ],
+            [
+              76.625,
+              10.375
+            ],
+            [
+              76.375,
+              10.375
+            ],
+            [
+              76.375,
+              10.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_038",
+        "lat": 10.25,
+        "lon": 76.75,
+        "basin_id": "basin_chalakudy",
+        "basin_name": "Chalakudy",
+        "mean_slope": 30.63,
+        "max_slope": 51.65,
+        "landslide_count_2018": 19,
+        "landslide_density": 0.02512,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0882,
+        "betweenness": 0.0103,
+        "clustering": 0.1608,
+        "eigenvector": 0.1258
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              10.125
+            ],
+            [
+              76.875,
+              10.125
+            ],
+            [
+              76.875,
+              10.375
+            ],
+            [
+              76.625,
+              10.375
+            ],
+            [
+              76.625,
+              10.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_039",
+        "lat": 10.25,
+        "lon": 77.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 17.6,
+        "max_slope": 32.56,
+        "landslide_count_2018": 16,
+        "landslide_density": 0.02116,
+        "extreme_days_aug2018": 11,
+        "degree": 0.098,
+        "betweenness": 0.0105,
+        "clustering": 0.3563,
+        "eigenvector": 0.1847
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              10.125
+            ],
+            [
+              77.125,
+              10.125
+            ],
+            [
+              77.125,
+              10.375
+            ],
+            [
+              76.875,
+              10.375
+            ],
+            [
+              76.875,
+              10.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_040",
+        "lat": 10.5,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.12,
+        "max_slope": 6.94,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              10.375
+            ],
+            [
+              75.875,
+              10.375
+            ],
+            [
+              75.875,
+              10.625
+            ],
+            [
+              75.625,
+              10.625
+            ],
+            [
+              75.625,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_041",
+        "lat": 10.5,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 6.26,
+        "max_slope": 19.75,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              10.375
+            ],
+            [
+              76.125,
+              10.375
+            ],
+            [
+              76.125,
+              10.625
+            ],
+            [
+              75.875,
+              10.625
+            ],
+            [
+              75.875,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_042",
+        "lat": 10.5,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 13.81,
+        "max_slope": 31.15,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              10.375
+            ],
+            [
+              76.375,
+              10.375
+            ],
+            [
+              76.375,
+              10.625
+            ],
+            [
+              76.125,
+              10.625
+            ],
+            [
+              76.125,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_043",
+        "lat": 10.5,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 28.37,
+        "max_slope": 47.22,
+        "landslide_count_2018": 25,
+        "landslide_density": 0.03306,
+        "extreme_days_aug2018": 6,
+        "degree": 0.0392,
+        "betweenness": 0.0111,
+        "clustering": 0.1373,
+        "eigenvector": 0.0417
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              10.375
+            ],
+            [
+              76.625,
+              10.375
+            ],
+            [
+              76.625,
+              10.625
+            ],
+            [
+              76.375,
+              10.625
+            ],
+            [
+              76.375,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_044",
+        "lat": 10.5,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 31.43,
+        "max_slope": 52.37,
+        "landslide_count_2018": 55,
+        "landslide_density": 0.07273,
+        "extreme_days_aug2018": 8,
+        "degree": 0.1275,
+        "betweenness": 0.0248,
+        "clustering": 0.154,
+        "eigenvector": 0.1422
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              10.375
+            ],
+            [
+              76.875,
+              10.375
+            ],
+            [
+              76.875,
+              10.625
+            ],
+            [
+              76.625,
+              10.625
+            ],
+            [
+              76.625,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_045",
+        "lat": 10.5,
+        "lon": 77.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 15.94,
+        "max_slope": 33.33,
+        "landslide_count_2018": 1,
+        "landslide_density": 0.00132,
+        "extreme_days_aug2018": 11,
+        "degree": 0.1078,
+        "betweenness": 0.0239,
+        "clustering": 0.2145,
+        "eigenvector": 0.1587
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.875,
+              10.375
+            ],
+            [
+              77.125,
+              10.375
+            ],
+            [
+              77.125,
+              10.625
+            ],
+            [
+              76.875,
+              10.625
+            ],
+            [
+              76.875,
+              10.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_046",
+        "lat": 10.75,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.54,
+        "max_slope": 7.52,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              10.625
+            ],
+            [
+              75.875,
+              10.625
+            ],
+            [
+              75.875,
+              10.875
+            ],
+            [
+              75.625,
+              10.875
+            ],
+            [
+              75.625,
+              10.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_047",
+        "lat": 10.75,
+        "lon": 76.0,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 6.94,
+        "max_slope": 18.07,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              10.625
+            ],
+            [
+              76.125,
+              10.625
+            ],
+            [
+              76.125,
+              10.875
+            ],
+            [
+              75.875,
+              10.875
+            ],
+            [
+              75.875,
+              10.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_048",
+        "lat": 10.75,
+        "lon": 76.25,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 13.29,
+        "max_slope": 30.05,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0196,
+        "betweenness": 0.0008,
+        "clustering": 0.0,
+        "eigenvector": 0.0046
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              10.625
+            ],
+            [
+              76.375,
+              10.625
+            ],
+            [
+              76.375,
+              10.875
+            ],
+            [
+              76.125,
+              10.875
+            ],
+            [
+              76.125,
+              10.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_049",
+        "lat": 10.75,
+        "lon": 76.5,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 26.85,
+        "max_slope": 48.73,
+        "landslide_count_2018": 9,
+        "landslide_density": 0.0119,
+        "extreme_days_aug2018": 3,
+        "degree": 0.049,
+        "betweenness": 0.0225,
+        "clustering": 0.0,
+        "eigenvector": 0.0172
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              10.625
+            ],
+            [
+              76.625,
+              10.625
+            ],
+            [
+              76.625,
+              10.875
+            ],
+            [
+              76.375,
+              10.875
+            ],
+            [
+              76.375,
+              10.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_050",
+        "lat": 10.75,
+        "lon": 76.75,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 30.8,
+        "max_slope": 51.25,
+        "landslide_count_2018": 15,
+        "landslide_density": 0.01983,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0294,
+        "betweenness": 0.0018,
+        "clustering": 0.2766,
+        "eigenvector": 0.0241
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              10.625
+            ],
+            [
+              76.875,
+              10.625
+            ],
+            [
+              76.875,
+              10.875
+            ],
+            [
+              76.625,
+              10.875
+            ],
+            [
+              76.625,
+              10.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_051",
+        "lat": 11.0,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.92,
+        "max_slope": 7.26,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              10.875
+            ],
+            [
+              75.625,
+              10.875
+            ],
+            [
+              75.625,
+              11.125
+            ],
+            [
+              75.375,
+              11.125
+            ],
+            [
+              75.375,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_052",
+        "lat": 11.0,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.72,
+        "max_slope": 5.78,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 7,
+        "degree": 0.0686,
+        "betweenness": 0.0172,
+        "clustering": 0.0832,
+        "eigenvector": 0.0861
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              10.875
+            ],
+            [
+              75.875,
+              10.875
+            ],
+            [
+              75.875,
+              11.125
+            ],
+            [
+              75.625,
+              11.125
+            ],
+            [
+              75.625,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_053",
+        "lat": 11.0,
+        "lon": 76.0,
+        "basin_id": "basin_kadalundi",
+        "basin_name": "Kadalundi",
+        "mean_slope": 7.21,
+        "max_slope": 18.58,
+        "landslide_count_2018": 1,
+        "landslide_density": 0.00132,
+        "extreme_days_aug2018": 9,
+        "degree": 0.0686,
+        "betweenness": 0.0039,
+        "clustering": 0.3595,
+        "eigenvector": 0.1213
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              10.875
+            ],
+            [
+              76.125,
+              10.875
+            ],
+            [
+              76.125,
+              11.125
+            ],
+            [
+              75.875,
+              11.125
+            ],
+            [
+              75.875,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_054",
+        "lat": 11.0,
+        "lon": 76.25,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 15.75,
+        "max_slope": 30.42,
+        "landslide_count_2018": 13,
+        "landslide_density": 0.01719,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0588,
+        "betweenness": 0.0145,
+        "clustering": 0.1781,
+        "eigenvector": 0.0871
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              10.875
+            ],
+            [
+              76.375,
+              10.875
+            ],
+            [
+              76.375,
+              11.125
+            ],
+            [
+              76.125,
+              11.125
+            ],
+            [
+              76.125,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_055",
+        "lat": 11.0,
+        "lon": 76.5,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 30.34,
+        "max_slope": 51.5,
+        "landslide_count_2018": 2,
+        "landslide_density": 0.00264,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0011
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              10.875
+            ],
+            [
+              76.625,
+              10.875
+            ],
+            [
+              76.625,
+              11.125
+            ],
+            [
+              76.375,
+              11.125
+            ],
+            [
+              76.375,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_056",
+        "lat": 11.0,
+        "lon": 76.75,
+        "basin_id": "basin_bharathapuzha",
+        "basin_name": "Bharathapuzha",
+        "mean_slope": 29.27,
+        "max_slope": 49.84,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0784,
+        "betweenness": 0.0478,
+        "clustering": 0.0,
+        "eigenvector": 0.0431
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              10.875
+            ],
+            [
+              76.875,
+              10.875
+            ],
+            [
+              76.875,
+              11.125
+            ],
+            [
+              76.625,
+              11.125
+            ],
+            [
+              76.625,
+              10.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_057",
+        "lat": 11.25,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.73,
+        "max_slope": 7.43,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0294,
+        "betweenness": 0.0049,
+        "clustering": 0.0,
+        "eigenvector": 0.029
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              11.125
+            ],
+            [
+              75.625,
+              11.125
+            ],
+            [
+              75.625,
+              11.375
+            ],
+            [
+              75.375,
+              11.375
+            ],
+            [
+              75.375,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_058",
+        "lat": 11.25,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.97,
+        "max_slope": 6.71,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 12,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0146
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              11.125
+            ],
+            [
+              75.875,
+              11.125
+            ],
+            [
+              75.875,
+              11.375
+            ],
+            [
+              75.625,
+              11.375
+            ],
+            [
+              75.625,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_059",
+        "lat": 11.25,
+        "lon": 76.0,
+        "basin_id": "basin_chaliyar",
+        "basin_name": "Chaliyar",
+        "mean_slope": 6.61,
+        "max_slope": 18.25,
+        "landslide_count_2018": 20,
+        "landslide_density": 0.02645,
+        "extreme_days_aug2018": 11,
+        "degree": 0.1765,
+        "betweenness": 0.0256,
+        "clustering": 0.2835,
+        "eigenvector": 0.3003
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              11.125
+            ],
+            [
+              76.125,
+              11.125
+            ],
+            [
+              76.125,
+              11.375
+            ],
+            [
+              75.875,
+              11.375
+            ],
+            [
+              75.875,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_060",
+        "lat": 11.25,
+        "lon": 76.25,
+        "basin_id": "basin_chaliyar",
+        "basin_name": "Chaliyar",
+        "mean_slope": 15.25,
+        "max_slope": 31.86,
+        "landslide_count_2018": 69,
+        "landslide_density": 0.09124,
+        "extreme_days_aug2018": 11,
+        "degree": 0.1275,
+        "betweenness": 0.0323,
+        "clustering": 0.2533,
+        "eigenvector": 0.2082
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              11.125
+            ],
+            [
+              76.375,
+              11.125
+            ],
+            [
+              76.375,
+              11.375
+            ],
+            [
+              76.125,
+              11.375
+            ],
+            [
+              76.125,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_061",
+        "lat": 11.25,
+        "lon": 76.5,
+        "basin_id": "basin_chaliyar",
+        "basin_name": "Chaliyar",
+        "mean_slope": 31.2,
+        "max_slope": 54.55,
+        "landslide_count_2018": 16,
+        "landslide_density": 0.02116,
+        "extreme_days_aug2018": 3,
+        "degree": 0.1078,
+        "betweenness": 0.0252,
+        "clustering": 0.151,
+        "eigenvector": 0.0955
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              11.125
+            ],
+            [
+              76.625,
+              11.125
+            ],
+            [
+              76.625,
+              11.375
+            ],
+            [
+              76.375,
+              11.375
+            ],
+            [
+              76.375,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_062",
+        "lat": 11.25,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 28.79,
+        "max_slope": 51.12,
+        "landslide_count_2018": 1,
+        "landslide_density": 0.00132,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0392,
+        "betweenness": 0.0112,
+        "clustering": 0.0,
+        "eigenvector": 0.0346
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              11.125
+            ],
+            [
+              76.875,
+              11.125
+            ],
+            [
+              76.875,
+              11.375
+            ],
+            [
+              76.625,
+              11.375
+            ],
+            [
+              76.625,
+              11.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_063",
+        "lat": 11.5,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.13,
+        "max_slope": 7.51,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0068
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              11.375
+            ],
+            [
+              75.375,
+              11.375
+            ],
+            [
+              75.375,
+              11.625
+            ],
+            [
+              75.125,
+              11.625
+            ],
+            [
+              75.125,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_064",
+        "lat": 11.5,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.85,
+        "max_slope": 5.9,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0588,
+        "betweenness": 0.0121,
+        "clustering": 0.1096,
+        "eigenvector": 0.0475
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              11.375
+            ],
+            [
+              75.625,
+              11.375
+            ],
+            [
+              75.625,
+              11.625
+            ],
+            [
+              75.375,
+              11.625
+            ],
+            [
+              75.375,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_065",
+        "lat": 11.5,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.83,
+        "max_slope": 7.0,
+        "landslide_count_2018": 8,
+        "landslide_density": 0.01058,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0294,
+        "betweenness": 0.0002,
+        "clustering": 0.5628,
+        "eigenvector": 0.0531
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              11.375
+            ],
+            [
+              75.875,
+              11.375
+            ],
+            [
+              75.875,
+              11.625
+            ],
+            [
+              75.625,
+              11.625
+            ],
+            [
+              75.625,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_066",
+        "lat": 11.5,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 8.43,
+        "max_slope": 20.37,
+        "landslide_count_2018": 65,
+        "landslide_density": 0.08595,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0294,
+        "betweenness": 0.0002,
+        "clustering": 0.2917,
+        "eigenvector": 0.0621
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              11.375
+            ],
+            [
+              76.125,
+              11.375
+            ],
+            [
+              76.125,
+              11.625
+            ],
+            [
+              75.875,
+              11.625
+            ],
+            [
+              75.875,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_067",
+        "lat": 11.5,
+        "lon": 76.25,
+        "basin_id": "basin_chaliyar",
+        "basin_name": "Chaliyar",
+        "mean_slope": 15.47,
+        "max_slope": 31.22,
+        "landslide_count_2018": 66,
+        "landslide_density": 0.08727,
+        "extreme_days_aug2018": 12,
+        "degree": 0.0588,
+        "betweenness": 0.0039,
+        "clustering": 0.2791,
+        "eigenvector": 0.1077
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              11.375
+            ],
+            [
+              76.375,
+              11.375
+            ],
+            [
+              76.375,
+              11.625
+            ],
+            [
+              76.125,
+              11.625
+            ],
+            [
+              76.125,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_068",
+        "lat": 11.5,
+        "lon": 76.5,
+        "basin_id": "basin_chaliyar",
+        "basin_name": "Chaliyar",
+        "mean_slope": 30.75,
+        "max_slope": 52.54,
+        "landslide_count_2018": 13,
+        "landslide_density": 0.01719,
+        "extreme_days_aug2018": 4,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0339
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              11.375
+            ],
+            [
+              76.625,
+              11.375
+            ],
+            [
+              76.625,
+              11.625
+            ],
+            [
+              76.375,
+              11.625
+            ],
+            [
+              76.375,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_069",
+        "lat": 11.5,
+        "lon": 76.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 26.66,
+        "max_slope": 45.7,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.049,
+        "betweenness": 0.0114,
+        "clustering": 0.0,
+        "eigenvector": 0.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.625,
+              11.375
+            ],
+            [
+              76.875,
+              11.375
+            ],
+            [
+              76.875,
+              11.625
+            ],
+            [
+              76.625,
+              11.625
+            ],
+            [
+              76.625,
+              11.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_070",
+        "lat": 11.75,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.66,
+        "max_slope": 6.92,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0148
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              11.625
+            ],
+            [
+              75.375,
+              11.625
+            ],
+            [
+              75.375,
+              11.875
+            ],
+            [
+              75.125,
+              11.875
+            ],
+            [
+              75.125,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_071",
+        "lat": 11.75,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.98,
+        "max_slope": 7.16,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0007
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              11.625
+            ],
+            [
+              75.625,
+              11.625
+            ],
+            [
+              75.625,
+              11.875
+            ],
+            [
+              75.375,
+              11.875
+            ],
+            [
+              75.375,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_072",
+        "lat": 11.75,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.31,
+        "max_slope": 7.25,
+        "landslide_count_2018": 9,
+        "landslide_density": 0.0119,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0882,
+        "betweenness": 0.0094,
+        "clustering": 0.2854,
+        "eigenvector": 0.1384
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              11.625
+            ],
+            [
+              75.875,
+              11.625
+            ],
+            [
+              75.875,
+              11.875
+            ],
+            [
+              75.625,
+              11.875
+            ],
+            [
+              75.625,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_073",
+        "lat": 11.75,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 7.32,
+        "max_slope": 18.94,
+        "landslide_count_2018": 65,
+        "landslide_density": 0.08595,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0392,
+        "betweenness": 0.0011,
+        "clustering": 0.5566,
+        "eigenvector": 0.0909
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              11.625
+            ],
+            [
+              76.125,
+              11.625
+            ],
+            [
+              76.125,
+              11.875
+            ],
+            [
+              75.875,
+              11.875
+            ],
+            [
+              75.875,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_074",
+        "lat": 11.75,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 18.91,
+        "max_slope": 37.63,
+        "landslide_count_2018": 38,
+        "landslide_density": 0.05025,
+        "extreme_days_aug2018": 11,
+        "degree": 0.1373,
+        "betweenness": 0.0309,
+        "clustering": 0.2613,
+        "eigenvector": 0.2316
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              11.625
+            ],
+            [
+              76.375,
+              11.625
+            ],
+            [
+              76.375,
+              11.875
+            ],
+            [
+              76.125,
+              11.875
+            ],
+            [
+              76.125,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_075",
+        "lat": 11.75,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 30.82,
+        "max_slope": 52.26,
+        "landslide_count_2018": 3,
+        "landslide_density": 0.00397,
+        "extreme_days_aug2018": 6,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              11.625
+            ],
+            [
+              76.625,
+              11.625
+            ],
+            [
+              76.625,
+              11.875
+            ],
+            [
+              76.375,
+              11.875
+            ],
+            [
+              76.375,
+              11.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_076",
+        "lat": 12.0,
+        "lon": 75.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.93,
+        "max_slope": 6.78,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.049,
+        "betweenness": 0.0086,
+        "clustering": 0.1637,
+        "eigenvector": 0.0166
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.875,
+              11.875
+            ],
+            [
+              75.125,
+              11.875
+            ],
+            [
+              75.125,
+              12.125
+            ],
+            [
+              74.875,
+              12.125
+            ],
+            [
+              74.875,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_077",
+        "lat": 12.0,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.21,
+        "max_slope": 7.99,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0015
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              11.875
+            ],
+            [
+              75.375,
+              11.875
+            ],
+            [
+              75.375,
+              12.125
+            ],
+            [
+              75.125,
+              12.125
+            ],
+            [
+              75.125,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_078",
+        "lat": 12.0,
+        "lon": 75.5,
+        "basin_id": "basin_valapattanam",
+        "basin_name": "Valapattanam",
+        "mean_slope": 1.76,
+        "max_slope": 6.56,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              11.875
+            ],
+            [
+              75.625,
+              11.875
+            ],
+            [
+              75.625,
+              12.125
+            ],
+            [
+              75.375,
+              12.125
+            ],
+            [
+              75.375,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_079",
+        "lat": 12.0,
+        "lon": 75.75,
+        "basin_id": "basin_valapattanam",
+        "basin_name": "Valapattanam",
+        "mean_slope": 5.38,
+        "max_slope": 18.82,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 11,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0153
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              11.875
+            ],
+            [
+              75.875,
+              11.875
+            ],
+            [
+              75.875,
+              12.125
+            ],
+            [
+              75.625,
+              12.125
+            ],
+            [
+              75.625,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_080",
+        "lat": 12.0,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 8.56,
+        "max_slope": 19.93,
+        "landslide_count_2018": 12,
+        "landslide_density": 0.01587,
+        "extreme_days_aug2018": 11,
+        "degree": 0.098,
+        "betweenness": 0.0064,
+        "clustering": 0.3913,
+        "eigenvector": 0.191
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              11.875
+            ],
+            [
+              76.125,
+              11.875
+            ],
+            [
+              76.125,
+              12.125
+            ],
+            [
+              75.875,
+              12.125
+            ],
+            [
+              75.875,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_081",
+        "lat": 12.0,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 19.92,
+        "max_slope": 35.87,
+        "landslide_count_2018": 9,
+        "landslide_density": 0.0119,
+        "extreme_days_aug2018": 12,
+        "degree": 0.0392,
+        "betweenness": 0.0006,
+        "clustering": 0.1421,
+        "eigenvector": 0.0604
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              11.875
+            ],
+            [
+              76.375,
+              11.875
+            ],
+            [
+              76.375,
+              12.125
+            ],
+            [
+              76.125,
+              12.125
+            ],
+            [
+              76.125,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_082",
+        "lat": 12.0,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 30.59,
+        "max_slope": 54.88,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 5,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0086
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              11.875
+            ],
+            [
+              76.625,
+              11.875
+            ],
+            [
+              76.625,
+              12.125
+            ],
+            [
+              76.375,
+              12.125
+            ],
+            [
+              76.375,
+              11.875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_083",
+        "lat": 12.25,
+        "lon": 75.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.94,
+        "max_slope": 7.75,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0392,
+        "betweenness": 0.0043,
+        "clustering": 0.1417,
+        "eigenvector": 0.0272
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.875,
+              12.125
+            ],
+            [
+              75.125,
+              12.125
+            ],
+            [
+              75.125,
+              12.375
+            ],
+            [
+              74.875,
+              12.375
+            ],
+            [
+              74.875,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_084",
+        "lat": 12.25,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.21,
+        "max_slope": 6.31,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0294,
+        "betweenness": 0.0019,
+        "clustering": 0.2752,
+        "eigenvector": 0.0154
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              12.125
+            ],
+            [
+              75.375,
+              12.125
+            ],
+            [
+              75.375,
+              12.375
+            ],
+            [
+              75.125,
+              12.375
+            ],
+            [
+              75.125,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_085",
+        "lat": 12.25,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.62,
+        "max_slope": 7.12,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              12.125
+            ],
+            [
+              75.625,
+              12.125
+            ],
+            [
+              75.625,
+              12.375
+            ],
+            [
+              75.375,
+              12.375
+            ],
+            [
+              75.375,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_086",
+        "lat": 12.25,
+        "lon": 75.75,
+        "basin_id": "basin_valapattanam",
+        "basin_name": "Valapattanam",
+        "mean_slope": 5.33,
+        "max_slope": 16.31,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0196,
+        "betweenness": 0.0169,
+        "clustering": 0.0,
+        "eigenvector": 0.0077
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              12.125
+            ],
+            [
+              75.875,
+              12.125
+            ],
+            [
+              75.875,
+              12.375
+            ],
+            [
+              75.625,
+              12.375
+            ],
+            [
+              75.625,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_087",
+        "lat": 12.25,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 7.58,
+        "max_slope": 22.02,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 12,
+        "degree": 0.1275,
+        "betweenness": 0.0261,
+        "clustering": 0.2546,
+        "eigenvector": 0.2148
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              12.125
+            ],
+            [
+              76.125,
+              12.125
+            ],
+            [
+              76.125,
+              12.375
+            ],
+            [
+              75.875,
+              12.375
+            ],
+            [
+              75.875,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_088",
+        "lat": 12.25,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 19.38,
+        "max_slope": 39.42,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 6,
+        "degree": 0.1078,
+        "betweenness": 0.0411,
+        "clustering": 0.1365,
+        "eigenvector": 0.1143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              12.125
+            ],
+            [
+              76.375,
+              12.125
+            ],
+            [
+              76.375,
+              12.375
+            ],
+            [
+              76.125,
+              12.375
+            ],
+            [
+              76.125,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_089",
+        "lat": 12.25,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 32.2,
+        "max_slope": 54.87,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0102
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              12.125
+            ],
+            [
+              76.625,
+              12.125
+            ],
+            [
+              76.625,
+              12.375
+            ],
+            [
+              76.375,
+              12.375
+            ],
+            [
+              76.375,
+              12.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_090",
+        "lat": 12.5,
+        "lon": 75.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.15,
+        "max_slope": 7.73,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0294,
+        "betweenness": 0.0035,
+        "clustering": 0.0,
+        "eigenvector": 0.0184
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.875,
+              12.375
+            ],
+            [
+              75.125,
+              12.375
+            ],
+            [
+              75.125,
+              12.625
+            ],
+            [
+              74.875,
+              12.625
+            ],
+            [
+              74.875,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_091",
+        "lat": 12.5,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.28,
+        "max_slope": 6.82,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0588,
+        "betweenness": 0.0128,
+        "clustering": 0.0,
+        "eigenvector": 0.0469
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              12.375
+            ],
+            [
+              75.375,
+              12.375
+            ],
+            [
+              75.375,
+              12.625
+            ],
+            [
+              75.125,
+              12.625
+            ],
+            [
+              75.125,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_092",
+        "lat": 12.5,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 3.27,
+        "max_slope": 7.13,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              12.375
+            ],
+            [
+              75.625,
+              12.375
+            ],
+            [
+              75.625,
+              12.625
+            ],
+            [
+              75.375,
+              12.625
+            ],
+            [
+              75.375,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_093",
+        "lat": 12.5,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 7.26,
+        "max_slope": 22.09,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.098,
+        "betweenness": 0.0554,
+        "clustering": 0.0373,
+        "eigenvector": 0.0941
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              12.375
+            ],
+            [
+              75.875,
+              12.375
+            ],
+            [
+              75.875,
+              12.625
+            ],
+            [
+              75.625,
+              12.625
+            ],
+            [
+              75.625,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_094",
+        "lat": 12.5,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 8.33,
+        "max_slope": 20.97,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0392,
+        "betweenness": 0.0016,
+        "clustering": 0.1345,
+        "eigenvector": 0.0454
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              12.375
+            ],
+            [
+              76.125,
+              12.375
+            ],
+            [
+              76.125,
+              12.625
+            ],
+            [
+              75.875,
+              12.625
+            ],
+            [
+              75.875,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_095",
+        "lat": 12.5,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 20.56,
+        "max_slope": 39.07,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 2,
+        "degree": 0.0294,
+        "betweenness": 0.001,
+        "clustering": 0.2701,
+        "eigenvector": 0.0096
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              12.375
+            ],
+            [
+              76.375,
+              12.375
+            ],
+            [
+              76.375,
+              12.625
+            ],
+            [
+              76.125,
+              12.625
+            ],
+            [
+              76.125,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_096",
+        "lat": 12.5,
+        "lon": 76.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 32.45,
+        "max_slope": 53.7,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0196,
+        "betweenness": 0.0013,
+        "clustering": 0.0,
+        "eigenvector": 0.0105
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              12.375
+            ],
+            [
+              76.625,
+              12.375
+            ],
+            [
+              76.625,
+              12.625
+            ],
+            [
+              76.375,
+              12.625
+            ],
+            [
+              76.375,
+              12.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_097",
+        "lat": 12.75,
+        "lon": 74.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 1.91,
+        "max_slope": 6.14,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0392,
+        "betweenness": 0.034,
+        "clustering": 0.0,
+        "eigenvector": 0.0103
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.625,
+              12.625
+            ],
+            [
+              74.875,
+              12.625
+            ],
+            [
+              74.875,
+              12.875
+            ],
+            [
+              74.625,
+              12.875
+            ],
+            [
+              74.625,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_098",
+        "lat": 12.75,
+        "lon": 75.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.48,
+        "max_slope": 6.03,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0098,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0066
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.875,
+              12.625
+            ],
+            [
+              75.125,
+              12.625
+            ],
+            [
+              75.125,
+              12.875
+            ],
+            [
+              74.875,
+              12.875
+            ],
+            [
+              74.875,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_099",
+        "lat": 12.75,
+        "lon": 75.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.28,
+        "max_slope": 7.23,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.125,
+              12.625
+            ],
+            [
+              75.375,
+              12.625
+            ],
+            [
+              75.375,
+              12.875
+            ],
+            [
+              75.125,
+              12.875
+            ],
+            [
+              75.125,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_100",
+        "lat": 12.75,
+        "lon": 75.5,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 2.13,
+        "max_slope": 6.51,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.375,
+              12.625
+            ],
+            [
+              75.625,
+              12.625
+            ],
+            [
+              75.625,
+              12.875
+            ],
+            [
+              75.375,
+              12.875
+            ],
+            [
+              75.375,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_101",
+        "lat": 12.75,
+        "lon": 75.75,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 6.17,
+        "max_slope": 17.49,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 0,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "clustering": 0.0,
+        "eigenvector": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.625,
+              12.625
+            ],
+            [
+              75.875,
+              12.625
+            ],
+            [
+              75.875,
+              12.875
+            ],
+            [
+              75.625,
+              12.875
+            ],
+            [
+              75.625,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_102",
+        "lat": 12.75,
+        "lon": 76.0,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 10.57,
+        "max_slope": 23.56,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 1,
+        "degree": 0.0392,
+        "betweenness": 0.0092,
+        "clustering": 0.1368,
+        "eigenvector": 0.0303
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.875,
+              12.625
+            ],
+            [
+              76.125,
+              12.625
+            ],
+            [
+              76.125,
+              12.875
+            ],
+            [
+              75.875,
+              12.875
+            ],
+            [
+              75.875,
+              12.625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "c_103",
+        "lat": 12.75,
+        "lon": 76.25,
+        "basin_id": "other",
+        "basin_name": "Other / Coastal Buffer",
+        "mean_slope": 23.45,
+        "max_slope": 44.11,
+        "landslide_count_2018": 0,
+        "landslide_density": 0.0,
+        "extreme_days_aug2018": 3,
+        "degree": 0.0196,
+        "betweenness": 0.0007,
+        "clustering": 0.0,
+        "eigenvector": 0.022
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.125,
+              12.625
+            ],
+            [
+              76.375,
+              12.625
+            ],
+            [
+              76.375,
+              12.875
+            ],
+            [
+              76.125,
+              12.875
+            ],
+            [
+              76.125,
+              12.625
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Kerala Climate Network (Vyuham) Configuration
+# All scientific and pipeline parameters are declared here. No magic numbers in code.
+
+study_area: "Kerala (+ Western Ghats buffer)"
+period: "1991-2020"
+season: "JJAS"
+random_seed: 42
+
+bbox:
+  lat_min: 8.0
+  lat_max: 13.5
+  lon_min: 74.0
+  lon_max: 78.0
+  resolution: 0.25  # degrees (~27 km)
+
+grid:
+  approx_cell_area_km2: 756.25  # ~27.5 km x 27.5 km at ~10°N
+
+events:
+  season_months: [6, 7, 8, 9]  # JJAS
+  wet_day_threshold_mm: 1.0
+  default_percentile: 95
+  sensitivity_percentiles: [90, 95, 97]
+
+sync:
+  max_lag_days: 10
+  symmetric: true
+
+network:
+  link_fraction: 0.05  # Keep top 5% of Q_ij links
+  allow_self_links: false
+  eigenvector_max_iter: 1000
+  eigenvector_tol: 1.0e-6
+
+robustness:
+  strategies: ["random", "degree", "betweenness"]
+  random_runs: 100
+  removal_fraction_max: 0.50
+  removal_fraction_step: 0.01
+  metrics: ["lcc", "efficiency"]
+
+landslide:
+  inventory_year: 2018
+  slope_classes: ["Low", "Medium", "High"]  # Tertiles
+  bootstrap_ci_samples: 1000
+  bootstrap_alpha: 0.05
+
+paths:
+  raw_data_dir: "data/raw"
+  interim_data_dir: "data/interim"
+  processed_data_dir: "data/processed"
+  web_data_dir: "web/public/data"

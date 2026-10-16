@@ -1,0 +1,449 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_periyar",
+        "name": "Periyar",
+        "n_cells": 10,
+        "impact_rank": 2,
+        "lcc_drop_if_removed": 0.1573,
+        "efficiency_drop_if_removed": 0.3365
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.15,
+              9.75
+            ],
+            [
+              76.5,
+              9.5
+            ],
+            [
+              77.3,
+              9.4
+            ],
+            [
+              77.45,
+              9.9
+            ],
+            [
+              77.2,
+              10.25
+            ],
+            [
+              76.5,
+              10.2
+            ],
+            [
+              76.15,
+              10.05
+            ],
+            [
+              76.15,
+              9.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_bharathapuzha",
+        "name": "Bharathapuzha",
+        "n_cells": 7,
+        "impact_rank": 3,
+        "lcc_drop_if_removed": 0.0787,
+        "efficiency_drop_if_removed": 0.1415
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8,
+              10.6
+            ],
+            [
+              76.4,
+              10.5
+            ],
+            [
+              77.05,
+              10.5
+            ],
+            [
+              77.1,
+              11.0
+            ],
+            [
+              76.6,
+              11.2
+            ],
+            [
+              76.0,
+              11.0
+            ],
+            [
+              75.8,
+              10.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_pamba",
+        "name": "Pamba",
+        "n_cells": 3,
+        "impact_rank": 5,
+        "lcc_drop_if_removed": 0.0449,
+        "efficiency_drop_if_removed": 0.0927
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.35,
+              9.2
+            ],
+            [
+              76.7,
+              9.1
+            ],
+            [
+              77.25,
+              9.15
+            ],
+            [
+              77.25,
+              9.55
+            ],
+            [
+              76.7,
+              9.55
+            ],
+            [
+              76.35,
+              9.35
+            ],
+            [
+              76.35,
+              9.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_chaliyar",
+        "name": "Chaliyar",
+        "n_cells": 5,
+        "impact_rank": 4,
+        "lcc_drop_if_removed": 0.0562,
+        "efficiency_drop_if_removed": 0.1307
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75,
+              11.1
+            ],
+            [
+              76.2,
+              11.1
+            ],
+            [
+              76.55,
+              11.25
+            ],
+            [
+              76.55,
+              11.6
+            ],
+            [
+              76.1,
+              11.55
+            ],
+            [
+              75.75,
+              11.25
+            ],
+            [
+              75.75,
+              11.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_chalakudy",
+        "name": "Chalakudy",
+        "n_cells": 3,
+        "impact_rank": 6,
+        "lcc_drop_if_removed": 0.0337,
+        "efficiency_drop_if_removed": 0.0746
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.2,
+              10.15
+            ],
+            [
+              76.65,
+              10.15
+            ],
+            [
+              77.0,
+              10.2
+            ],
+            [
+              77.0,
+              10.5
+            ],
+            [
+              76.5,
+              10.45
+            ],
+            [
+              76.2,
+              10.25
+            ],
+            [
+              76.2,
+              10.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_kadalundi",
+        "name": "Kadalundi",
+        "n_cells": 1,
+        "impact_rank": 9,
+        "lcc_drop_if_removed": 0.0112,
+        "efficiency_drop_if_removed": 0.0249
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.75,
+              11.0
+            ],
+            [
+              76.2,
+              10.95
+            ],
+            [
+              76.45,
+              11.1
+            ],
+            [
+              76.25,
+              11.25
+            ],
+            [
+              75.8,
+              11.15
+            ],
+            [
+              75.75,
+              11.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_muvattupuzha",
+        "name": "Muvattupuzha",
+        "n_cells": 0,
+        "impact_rank": 99,
+        "lcc_drop_if_removed": 0.0,
+        "efficiency_drop_if_removed": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3,
+              9.75
+            ],
+            [
+              76.7,
+              9.7
+            ],
+            [
+              76.9,
+              10.0
+            ],
+            [
+              76.5,
+              10.05
+            ],
+            [
+              76.3,
+              9.85
+            ],
+            [
+              76.3,
+              9.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_valapattanam",
+        "name": "Valapattanam",
+        "n_cells": 3,
+        "impact_rank": 8,
+        "lcc_drop_if_removed": 0.0337,
+        "efficiency_drop_if_removed": 0.0491
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25,
+              11.85
+            ],
+            [
+              75.6,
+              11.8
+            ],
+            [
+              75.95,
+              12.0
+            ],
+            [
+              75.75,
+              12.3
+            ],
+            [
+              75.3,
+              12.1
+            ],
+            [
+              75.25,
+              11.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_achankovil",
+        "name": "Achankovil",
+        "n_cells": 3,
+        "impact_rank": 7,
+        "lcc_drop_if_removed": 0.0337,
+        "efficiency_drop_if_removed": 0.0556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.4,
+              9.0
+            ],
+            [
+              76.85,
+              8.95
+            ],
+            [
+              77.2,
+              9.05
+            ],
+            [
+              77.1,
+              9.25
+            ],
+            [
+              76.6,
+              9.25
+            ],
+            [
+              76.4,
+              9.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "basin_id": "basin_kallada",
+        "name": "Kallada",
+        "n_cells": 0,
+        "impact_rank": 99,
+        "lcc_drop_if_removed": 0.0,
+        "efficiency_drop_if_removed": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.55,
+              8.9
+            ],
+            [
+              77.0,
+              8.85
+            ],
+            [
+              77.25,
+              9.0
+            ],
+            [
+              76.9,
+              9.15
+            ],
+            [
+              76.6,
+              9.05
+            ],
+            [
+              76.55,
+              8.9
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
