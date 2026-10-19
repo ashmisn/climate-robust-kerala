@@ -30,3 +30,6 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Large binary rasters (SRTM tiles documented in data/raw/PROVENANCE.md)
+data/raw/srtm/*.tif

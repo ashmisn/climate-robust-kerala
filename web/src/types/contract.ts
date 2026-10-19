@@ -20,13 +20,26 @@ export interface CellProperties {
   basin_name?: string;
   mean_slope: number;
   max_slope: number;
+  slope_dem_mean?: number;
+  slope_dem_p90?: number;
+  frac_pixels_over_25deg?: number;
+  elev_mean?: number;
+  slope_dem_class?: string;
+  slope_at_landslides?: number | null;
   landslide_count_2018: number;
   landslide_density: number;
+  is_kerala_50?: boolean;
   extreme_days_aug2018: number;
+  aug2018_rain_mm?: number;
+  aug2018_extreme_days?: number;
   degree: number;
   betweenness: number;
   clustering: number;
   eigenvector: number;
+  degree_2018?: number;
+  betweenness_2018?: number;
+  clustering_2018?: number;
+  eigenvector_2018?: number;
 }
 
 export interface CellFeature {
@@ -116,6 +129,11 @@ export interface LandslideCorrelationStat {
   p: number;
   ci_low: number;
   ci_high: number;
+  holm_p?: number;
+  partial_rho?: number;
+  partial_perm_p?: number;
+  partial_perm_p_holm?: number;
+  spatial_ci_075?: [number, number];
 }
 
 export interface SlopeClassCorrelation {
@@ -130,7 +148,13 @@ export interface ScatterPoint {
   cell_id: string;
   density: number;
   slope: number;
+  slope_dem_mean?: number;
+  slope_dem_p90?: number;
+  elev_mean?: number;
   slope_class?: string;
+  is_kerala_50?: boolean;
+  aug2018_rain_mm?: number;
+  aug2018_extreme_days?: number;
   degree?: number;
   betweenness?: number;
   clustering?: number;
@@ -139,9 +163,21 @@ export interface ScatterPoint {
 }
 
 export interface LandslideStatsData {
+  status?: string;
+  message?: string;
+  description?: string;
   overall: Record<string, LandslideCorrelationStat>;
   by_slope_class: SlopeClassCorrelation[];
   scatter: ScatterPoint[];
+  cell_sets?: {
+    kerala_48: any;
+    all_97: any;
+  };
+  model_comparison?: any;
+  rainfall_controls?: any;
+  point_level_auc?: any;
+  exploratory_2018_network?: any;
+  audit?: any;
 }
 
 export interface LandslidePoint {

@@ -1,0 +1,7 @@
+basin_id,basin_name,n_cells,observed_lcc_drop,scattered_lcc_mean,scattered_lcc_p05,scattered_lcc_p95,scattered_lcc_pvalue,contiguous_lcc_mean,contiguous_lcc_p05,contiguous_lcc_p95,contiguous_lcc_pvalue,observed_eff_drop,scattered_holm_pvalue,contiguous_holm_pvalue
+basin_periyar,Periyar and others,27,0.32,0.3344,0.2533,0.44,0.484,0.3681,0.24,0.6,0.4822,0.4954,1.0,1.0
+basin_varrar,Varrar and others,17,0.2267,0.2035,0.1467,0.28,0.1868,0.241,0.08,0.4533,0.4256,0.4621,0.934,1.0
+basin_netravati,Netravati and others,12,0.2133,0.1409,0.0933,0.2,0.0343,0.1598,0.04,0.3067,0.1645,0.3111,0.2058,0.987
+basin_cauvery_middle,Cauvery Middle,10,0.0133,0.117,0.08,0.16,1.0,0.1361,0.0267,0.2667,0.9894,0.0303,1.0,1.0
+basin_cauvery_upper,Cauvery Upper,10,0.04,0.1171,0.08,0.16,1.0,0.1365,0.04,0.2667,0.9511,0.0723,1.0,1.0
+basin_vaippar,Vaippar and others,2,0.0,0.0229,0.0127,0.04,1.0,0.0263,0.0,0.0533,1.0,0.0026,1.0,1.0

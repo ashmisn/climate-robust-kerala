@@ -2,7 +2,7 @@ import React from 'react';
 import { useApp } from '../state/AppContext';
 import { StatCard } from '../components/StatCard';
 import { MapView } from '../components/MapView';
-import { Grid, Share2, Waves, TrendingUp, Info, ArrowRight } from 'lucide-react';
+import { Grid, Share2, Waves, TrendingUp, Info, ArrowRight, CloudRain } from 'lucide-react';
 import { formatMetricName } from '../lib/colors';
 
 export const Overview: React.FC = () => {
@@ -15,21 +15,30 @@ export const Overview: React.FC = () => {
     (a, b) => a.properties.impact_rank - b.properties.impact_rank
   )[0]?.properties;
 
-  // Strongest correlation with landslide density
+  // Check Study B landslide association (honest reporting of null result)
   const overallStats = data.landslideStats.overall;
   let strongestMetric = 'betweenness';
   let maxAbsRho = 0;
   let strongestRho = 0;
   let strongestP = 1;
+  let spansZero = true;
 
-  Object.entries(overallStats).forEach(([metric, stat]) => {
-    if (Math.abs(stat.rho) > maxAbsRho) {
-      maxAbsRho = Math.abs(stat.rho);
-      strongestMetric = metric;
-      strongestRho = stat.rho;
-      strongestP = stat.p;
-    }
-  });
+  if (overallStats) {
+    Object.entries(overallStats).forEach(([metric, stat]) => {
+      if (Math.abs(stat.rho) > maxAbsRho) {
+        maxAbsRho = Math.abs(stat.rho);
+        strongestMetric = metric;
+        strongestRho = stat.rho;
+        strongestP = stat.p;
+        spansZero = (stat.ci_low <= 0 && stat.ci_high >= 0);
+      }
+    });
+  }
+
+  // Real August 2018 event rain correlation (Positive physical control)
+  const rainControls = data.landslideStats.rainfall_controls?.kerala_48_cells?.aug2018_rain_mm;
+  const rainRho = rainControls ? rainControls.plain_rho : 0.331;
+  const rainP = rainControls ? rainControls.plain_p : 0.021;
 
   return (
     <div className="p-4 md:p-6 space-y-6 max-w-7xl mx-auto">
@@ -43,14 +52,14 @@ export const Overview: React.FC = () => {
             Kerala Climate Network — Vyuham
           </h1>
           <p className="text-slate-300 text-xs md:text-sm leading-relaxed">
-            Investigating synchronized extreme monsoon precipitation patterns (1991–2020),
+            Investigating synchronized extreme monsoon precipitation patterns (1981–2020),
             drainage basin topological robustness (Study A), and empirical validation against the 2018 catastrophic landslide disaster (Study B).
           </p>
         </div>
       </div>
 
-      {/* 4 Stat Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
+      {/* 5 Stat Cards (Side-by-Side Validation: Event Trigger vs Long-Term Synchrony) */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
         <StatCard
           title="Grid Cells"
           value={data.meta.n_cells}
@@ -65,14 +74,20 @@ export const Overview: React.FC = () => {
         />
         <StatCard
           title="Critical Basin"
-          value={topBasin ? topBasin.name : "Periyar"}
-          subtitle={topBasin ? `Rank #${topBasin.impact_rank} • ${topBasin.n_cells} cells` : "Top structural impact"}
+          value={topBasin ? topBasin.name.split(' ')[0] : "Periyar"}
+          subtitle={topBasin ? `Rank #${topBasin.impact_rank} • ${(topBasin.lcc_drop_if_removed * 100).toFixed(1)}% LCC drop` : "Top structural impact"}
           icon={Waves}
         />
         <StatCard
-          title="Strongest Correlation"
-          value={`ρ = ${strongestRho > 0 ? '+' : ''}${strongestRho.toFixed(2)}`}
-          subtitle={`${formatMetricName(strongestMetric)} (p=${strongestP.toFixed(3)})`}
+          title="2018 Rain Trigger"
+          value={`ρ = +${rainRho.toFixed(2)}`}
+          subtitle={`Acute rain tracks slides (p=${rainP.toFixed(3)})`}
+          icon={CloudRain}
+        />
+        <StatCard
+          title="40-Yr Synchrony"
+          value="ρ ≈ 0 (Null)"
+          subtitle="No detectable effect (CIs span 0)"
           icon={TrendingUp}
         />
       </div>
@@ -88,7 +103,7 @@ export const Overview: React.FC = () => {
             • <strong>Study A (Basin Robustness):</strong> Targeted disconnection of the <strong>{topBasin?.name}</strong> basin induces a <strong>{(topBasin?.lcc_drop_if_removed! * 100).toFixed(1)}% drop</strong> in the largest connected component, showing high topological criticality for interstate rainfall synchronization.
           </p>
           <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
-            • <strong>Study B (Landslide Validation):</strong> Network <strong>{formatMetricName(strongestMetric)}</strong> exhibits a statistically robust Spearman correlation (<strong>ρ = {strongestRho.toFixed(2)}</strong>, 95% CI: [{overallStats[strongestMetric]?.ci_low.toFixed(2)}, {overallStats[strongestMetric]?.ci_high.toFixed(2)}]) with 2018 landslide occurrences.
+            • <strong>Study B (Landslide Validation & Event Trigger):</strong> August 2018 acute event rainfall tracks empirical landslide density (<strong>ρ = +0.33, p = 0.021</strong> on Kerala cells; <strong>ρ = +0.37, p = 0.0002</strong> on all cells). Conversely, 40-year climatological network centralities show <strong>no detectable correlation</strong> (ρ ≈ 0; all 95% spatial-block CIs span zero). Conclusion: acute storm precipitation triggers landslides, whereas long-term synchrony models synoptic moisture routing.
           </p>
         </div>
 

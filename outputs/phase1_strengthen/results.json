@@ -1,0 +1,515 @@
+{
+  "metadata": {
+    "n_all_cells": 97,
+    "n_kerala_cells": 48,
+    "random_seed": 42,
+    "n_permutations": 10000,
+    "n_bootstrap": 1000
+  },
+  "task_d_dem_audit": {
+    "status": "skipped",
+    "reason": "No SRTM DEM or slope raster GeoTIFF found in repository. No synthetic data substituted."
+  },
+  "task_c_positive_control": {
+    "all_97_cells": {
+      "rho": 0.3712,
+      "p_value": 0.00018208,
+      "ci_95": [
+        0.169,
+        0.544
+      ]
+    },
+    "kerala_48_cells": {
+      "rho": 0.331,
+      "p_value": 0.021549,
+      "ci_95": [
+        0.059,
+        0.567
+      ]
+    }
+  },
+  "task_a_centrality_reanalysis": {
+    "all_97_cells": {
+      "metrics": {
+        "degree": {
+          "plain_spearman": {
+            "rho": 0.0595,
+            "p_value": 0.5627,
+            "ci_95": [
+              -0.144,
+              0.253
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": 0.1266,
+            "permutation_p_10k": 0.2181,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 33,
+                "ci_low": -0.103,
+                "ci_high": 0.342,
+                "se": 0.115
+              },
+              "block_0.75deg": {
+                "n_blocks": 18,
+                "ci_low": -0.186,
+                "ci_high": 0.339,
+                "se": 0.135
+              },
+              "block_1.00deg": {
+                "n_blocks": 12,
+                "ci_low": -0.071,
+                "ci_high": 0.296,
+                "se": 0.094
+              }
+            }
+          }
+        },
+        "betweenness": {
+          "plain_spearman": {
+            "rho": 0.0588,
+            "p_value": 0.5673,
+            "ci_95": [
+              -0.162,
+              0.264
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": 0.0977,
+            "permutation_p_10k": 0.3468,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 33,
+                "ci_low": -0.148,
+                "ci_high": 0.326,
+                "se": 0.123
+              },
+              "block_0.75deg": {
+                "n_blocks": 18,
+                "ci_low": -0.185,
+                "ci_high": 0.301,
+                "se": 0.124
+              },
+              "block_1.00deg": {
+                "n_blocks": 12,
+                "ci_low": -0.102,
+                "ci_high": 0.242,
+                "se": 0.083
+              }
+            }
+          }
+        },
+        "clustering": {
+          "plain_spearman": {
+            "rho": -0.0283,
+            "p_value": 0.7831,
+            "ci_95": [
+              -0.225,
+              0.181
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": 0.026,
+            "permutation_p_10k": 0.8076,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 33,
+                "ci_low": -0.227,
+                "ci_high": 0.273,
+                "se": 0.131
+              },
+              "block_0.75deg": {
+                "n_blocks": 18,
+                "ci_low": -0.165,
+                "ci_high": 0.17,
+                "se": 0.085
+              },
+              "block_1.00deg": {
+                "n_blocks": 12,
+                "ci_low": -0.3,
+                "ci_high": 0.307,
+                "se": 0.165
+              }
+            }
+          }
+        },
+        "eigenvector": {
+          "plain_spearman": {
+            "rho": 0.0005,
+            "p_value": 0.9958,
+            "ci_95": [
+              -0.187,
+              0.2
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": 0.1053,
+            "permutation_p_10k": 0.3043,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 33,
+                "ci_low": -0.063,
+                "ci_high": 0.276,
+                "se": 0.087
+              },
+              "block_0.75deg": {
+                "n_blocks": 18,
+                "ci_low": -0.092,
+                "ci_high": 0.226,
+                "se": 0.083
+              },
+              "block_1.00deg": {
+                "n_blocks": 12,
+                "ci_low": -0.065,
+                "ci_high": 0.271,
+                "se": 0.087
+              }
+            }
+          }
+        }
+      },
+      "slope_strata": {
+        "Low": {
+          "n_cells": 53,
+          "metrics": {
+            "degree": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "betweenness": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "clustering": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "eigenvector": {
+              "rho": 0.0,
+              "p_value": 1.0
+            }
+          }
+        },
+        "Medium": {
+          "n_cells": 8,
+          "metrics": {
+            "degree": {
+              "rho": 0.6582,
+              "p_value": 0.076
+            },
+            "betweenness": {
+              "rho": 0.0737,
+              "p_value": 0.8624
+            },
+            "clustering": {
+              "rho": 0.3192,
+              "p_value": 0.441
+            },
+            "eigenvector": {
+              "rho": 0.6874,
+              "p_value": 0.0596
+            }
+          }
+        },
+        "High": {
+          "n_cells": 36,
+          "metrics": {
+            "degree": {
+              "rho": 0.069,
+              "p_value": 0.6893
+            },
+            "betweenness": {
+              "rho": 0.067,
+              "p_value": 0.6978
+            },
+            "clustering": {
+              "rho": -0.0022,
+              "p_value": 0.99
+            },
+            "eigenvector": {
+              "rho": 0.1183,
+              "p_value": 0.4921
+            }
+          }
+        }
+      }
+    },
+    "kerala_48_cells": {
+      "metrics": {
+        "degree": {
+          "plain_spearman": {
+            "rho": -0.1447,
+            "p_value": 0.3265,
+            "ci_95": [
+              -0.446,
+              0.173
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": 0.0153,
+            "permutation_p_10k": 0.9202,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 18,
+                "ci_low": -0.371,
+                "ci_high": 0.349,
+                "se": 0.185
+              },
+              "block_0.75deg": {
+                "n_blocks": 13,
+                "ci_low": -0.43,
+                "ci_high": 0.341,
+                "se": 0.203
+              },
+              "block_1.00deg": {
+                "n_blocks": 8,
+                "ci_low": -0.275,
+                "ci_high": 0.268,
+                "se": 0.144
+              }
+            }
+          }
+        },
+        "betweenness": {
+          "plain_spearman": {
+            "rho": -0.1847,
+            "p_value": 0.2089,
+            "ci_95": [
+              -0.466,
+              0.099
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": -0.0396,
+            "permutation_p_10k": 0.7903,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 18,
+                "ci_low": -0.412,
+                "ci_high": 0.315,
+                "se": 0.182
+              },
+              "block_0.75deg": {
+                "n_blocks": 13,
+                "ci_low": -0.362,
+                "ci_high": 0.276,
+                "se": 0.169
+              },
+              "block_1.00deg": {
+                "n_blocks": 8,
+                "ci_low": -0.316,
+                "ci_high": 0.251,
+                "se": 0.144
+              }
+            }
+          }
+        },
+        "clustering": {
+          "plain_spearman": {
+            "rho": -0.0986,
+            "p_value": 0.5048,
+            "ci_95": [
+              -0.422,
+              0.203
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": -0.0653,
+            "permutation_p_10k": 0.6656,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 18,
+                "ci_low": -0.501,
+                "ci_high": 0.374,
+                "se": 0.224
+              },
+              "block_0.75deg": {
+                "n_blocks": 13,
+                "ci_low": -0.306,
+                "ci_high": 0.258,
+                "se": 0.136
+              },
+              "block_1.00deg": {
+                "n_blocks": 8,
+                "ci_low": -0.545,
+                "ci_high": 0.362,
+                "se": 0.253
+              }
+            }
+          }
+        },
+        "eigenvector": {
+          "plain_spearman": {
+            "rho": -0.2319,
+            "p_value": 0.1127,
+            "ci_95": [
+              -0.514,
+              0.067
+            ]
+          },
+          "slope_controlled_partial": {
+            "partial_rho": -0.0681,
+            "permutation_p_10k": 0.6538,
+            "spatial_bootstrap_cis": {
+              "block_0.50deg": {
+                "n_blocks": 18,
+                "ci_low": -0.4,
+                "ci_high": 0.229,
+                "se": 0.156
+              },
+              "block_0.75deg": {
+                "n_blocks": 13,
+                "ci_low": -0.371,
+                "ci_high": 0.168,
+                "se": 0.136
+              },
+              "block_1.00deg": {
+                "n_blocks": 8,
+                "ci_low": -0.262,
+                "ci_high": 0.23,
+                "se": 0.119
+              }
+            }
+          }
+        }
+      },
+      "slope_strata": {
+        "Low": {
+          "n_cells": 14,
+          "metrics": {
+            "degree": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "betweenness": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "clustering": {
+              "rho": 0.0,
+              "p_value": 1.0
+            },
+            "eigenvector": {
+              "rho": 0.0,
+              "p_value": 1.0
+            }
+          }
+        },
+        "Medium": {
+          "n_cells": 6,
+          "metrics": {
+            "degree": {
+              "rho": 0.4926,
+              "p_value": 0.3209
+            },
+            "betweenness": {
+              "rho": -0.2319,
+              "p_value": 0.6584
+            },
+            "clustering": {
+              "rho": 0.3189,
+              "p_value": 0.5379
+            },
+            "eigenvector": {
+              "rho": 0.5508,
+              "p_value": 0.2574
+            }
+          }
+        },
+        "High": {
+          "n_cells": 28,
+          "metrics": {
+            "degree": {
+              "rho": -0.0223,
+              "p_value": 0.9104
+            },
+            "betweenness": {
+              "rho": -0.0184,
+              "p_value": 0.9261
+            },
+            "clustering": {
+              "rho": -0.063,
+              "p_value": 0.7501
+            },
+            "eigenvector": {
+              "rho": -0.1205,
+              "p_value": 0.5413
+            }
+          }
+        }
+      }
+    }
+  },
+  "task_b_model_comparison_cv": {
+    "all_97_cells": {
+      "block_0.50deg": {
+        "n_blocks": 33,
+        "zero_landslide_cells": 53,
+        "nonzero_landslide_cells": 44,
+        "r2_null": -0.0266,
+        "r2_slope_only": 0.0937,
+        "r2_slope_plus_metrics": 0.0533,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      },
+      "block_0.75deg": {
+        "n_blocks": 18,
+        "zero_landslide_cells": 53,
+        "nonzero_landslide_cells": 44,
+        "r2_null": -0.0492,
+        "r2_slope_only": 0.0662,
+        "r2_slope_plus_metrics": 0.0627,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      },
+      "block_1.00deg": {
+        "n_blocks": 12,
+        "zero_landslide_cells": 53,
+        "nonzero_landslide_cells": 44,
+        "r2_null": -0.0477,
+        "r2_slope_only": 0.0782,
+        "r2_slope_plus_metrics": 0.0164,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      }
+    },
+    "kerala_48_cells": {
+      "block_0.50deg": {
+        "n_blocks": 18,
+        "zero_landslide_cells": 14,
+        "nonzero_landslide_cells": 34,
+        "r2_null": -0.0493,
+        "r2_slope_only": 0.0503,
+        "r2_slope_plus_metrics": -0.0376,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      },
+      "block_0.75deg": {
+        "n_blocks": 13,
+        "zero_landslide_cells": 14,
+        "nonzero_landslide_cells": 34,
+        "r2_null": -0.0886,
+        "r2_slope_only": 0.031,
+        "r2_slope_plus_metrics": 0.0265,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      },
+      "block_1.00deg": {
+        "n_blocks": 8,
+        "zero_landslide_cells": 14,
+        "nonzero_landslide_cells": 34,
+        "r2_null": -0.072,
+        "r2_slope_only": 0.0367,
+        "r2_slope_plus_metrics": -0.1077,
+        "auc_null": 0.5,
+        "auc_slope_only": 1.0,
+        "auc_slope_plus_metrics": 1.0
+      }
+    }
+  }
+}

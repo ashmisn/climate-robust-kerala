@@ -4,21 +4,35 @@
   <img src="web/public/logo.png" alt="Vyuham Logo" width="220" />
 </p>
 
-An empirical complex systems and climate network analysis framework investigating extreme monsoon rainfall synchronization over Kerala (+ Western Ghats buffer) across the 1991–2020 climatological normal.
+An empirical complex systems and climate network analysis framework investigating extreme monsoon rainfall synchronization over Kerala (+ Western Ghats buffer) across the 1981–2020 (40-year) climatological period.
 
 The repository encompasses two scientific investigations and an interactive zero-backend React dashboard:
-- **Study A — Basin Robustness:** Percolation breakdown analysis identifying which spatial grid cells and river basins are structurally critical for interstate and regional rainfall teleconnections.
-- **Study B — Landslide Validation:** Spatial regression and rank correlation assessing whether complex network centralities correlate with empirical landslide densities from the catastrophic 2018 Kerala monsoon disaster (after controlling for topographic slope).
+- **Study A — Basin Robustness:** Percolation breakdown analysis identifying which spatial grid cells and river basins are structurally critical for interstate and regional rainfall teleconnections (computed on real 1981–2020 IMD rainfall and India-WRIS hydrology).
+- **Study B — Landslide Validation:** Spatial regression and rank correlation assessing whether complex network centralities correlate with empirical landslide densities (currently marked **Pending real inventory and DEM** following our input audit).
 
 ---
 
-## 1. Architecture
+## 1. Dataset Provenance Status
+
+| Input Dataset | Current Status | Source / Provenance | File Path |
+| :--- | :---: | :--- | :--- |
+| **IMD Daily Rainfall (1981–2020)** | **REAL** | India Meteorological Department (IMD) 0.25° gridded daily NetCDF archive (`RF25_ind1981_rfp25.nc` to `RF25_ind2020_rfp25.nc`) | `data/raw/imd_rainfall_real.npz` |
+| **Kerala State Boundary** | **REAL** | GADM 4.1 Level-1 administrative boundary (`NAME_1 == "Kerala"`) | `data/raw/kerala_boundary_gadm.geojson` |
+| **Kerala District Boundaries** | **REAL** | Census of India 2011 official 14 district polygons | `data/raw/kerala_districts.geojson` |
+| **River Basin Boundaries** | **REAL** | Central Water Commission (CWC) / India-WRIS hydrological sub-basins (`WRIS_SubBasin.parquet`) | `data/raw/basins_real.geojson` |
+| **Topographic DEM / Slope** | **PENDING** | Missing real raster GeoTIFF. Synthetic ridge approximations withdrawn | Pending `srtm_kerala_dem.tif` |
+| **2018 Landslide Inventory** | **PENDING** | Missing real van Westen (2020) inventory. 1,030-point simulation withdrawn | Pending `van_westen_2018_landslides.geojson` |
+
+---
+
+## 2. Architecture
 
 ```
-IMD 0.25° Daily Rainfall ─┐
-India-WRIS River Basins ──┤
-SRTM 30m DEM Slope ───────┼─► Python Pipeline ─► web/public/data/*.json ─► Static React Dashboard
-2018 Landslide Inventory ─┘
+Real IMD 0.25° Rainfall (1981-2020) ─┐
+India-WRIS Real River Sub-Basins ────┤
+GADM 4.1 State & Census Districts ───┼─► Python Pipeline ─► web/public/data/*.json ─► Static React Dashboard
+[SRTM DEM & van Westen Landslides] ──┘   (outputs/real_data_run)
+(Pending real ingestion)
 ```
 
 **Design Principle:** The Python pipeline processes raw spatial data, calculates Event Synchronization (Quian Quiroga et al. 2002) in `numba`, conducts robustness simulations, and serializes static JSON/GeoJSON files directly into `web/public/data/`. The React + Vite web dashboard is completely static, with no backend server required.

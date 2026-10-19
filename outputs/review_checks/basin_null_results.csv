@@ -1,0 +1,10 @@
+basin_id,basin_name,n_cells,observed_lcc_drop,scattered_lcc_mean,scattered_lcc_p05,scattered_lcc_p95,scattered_lcc_pvalue,contiguous_lcc_mean,contiguous_lcc_p05,contiguous_lcc_p95,contiguous_lcc_pvalue,observed_eff_drop
+other,Other / Coastal Buffer,68,0.7079,0.7667,0.6854,0.8764,0.841,0.7478,0.6629,0.8539,0.495,0.8945
+basin_periyar,Periyar,10,0.1573,0.1158,0.0787,0.1573,0.061,0.1153,0.0674,0.1573,0.087,0.3365
+basin_bharathapuzha,Bharathapuzha,7,0.0787,0.0813,0.0562,0.1124,0.389,0.0808,0.0449,0.1124,0.405,0.1415
+basin_chaliyar,Chaliyar,5,0.0562,0.0575,0.0337,0.0899,0.341,0.0576,0.0337,0.0787,0.406,0.1307
+basin_achankovil,Achankovil,3,0.0337,0.0349,0.0112,0.0562,0.725,0.034,0.0112,0.0562,0.793,0.0556
+basin_pamba,Pamba,3,0.0449,0.0348,0.0225,0.0562,0.268,0.0344,0.0112,0.0562,0.271,0.0927
+basin_chalakudy,Chalakudy,3,0.0337,0.0349,0.0225,0.0562,0.723,0.0348,0.0112,0.0562,0.795,0.0746
+basin_valapattanam,Valapattanam,3,0.0337,0.035,0.0225,0.0562,0.732,0.0343,0.0112,0.0562,0.783,0.0491
+basin_kadalundi,Kadalundi,1,0.0112,0.0115,0.0,0.0225,0.863,0.0118,0.0,0.0337,0.866,0.0249

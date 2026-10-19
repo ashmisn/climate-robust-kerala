@@ -1,0 +1,760 @@
+{
+  "kerala_48": {
+    "N": 48,
+    "label": "Kerala-48 (Main Set, Surveyed Ground Truth)",
+    "plain_spearman": {
+      "centrality_vs_slope": {
+        "degree": {
+          "rho": -0.5106,
+          "p": 0.0002
+        },
+        "betweenness": {
+          "rho": -0.4167,
+          "p": 0.0032
+        },
+        "clustering": {
+          "rho": -0.3402,
+          "p": 0.018
+        },
+        "eigenvector": {
+          "rho": -0.5556,
+          "p": 0.0
+        }
+      },
+      "centrality_vs_landslides": {
+        "degree": {
+          "rho": -0.1447,
+          "p": 0.3265
+        },
+        "betweenness": {
+          "rho": -0.1847,
+          "p": 0.2089
+        },
+        "clustering": {
+          "rho": -0.0986,
+          "p": 0.5048
+        },
+        "eigenvector": {
+          "rho": -0.2319,
+          "p": 0.1127
+        }
+      },
+      "slope_vs_landslides": {
+        "rho": 0.7419,
+        "p": 0.0
+      }
+    },
+    "partial_spearman_controls": {
+      "slope_dem_mean": {
+        "degree": {
+          "partial_rho": 0.4062,
+          "perm_p_raw": 0.0049,
+          "ci_075": [
+            0.1291,
+            0.6058
+          ],
+          "se_075": 0.1244,
+          "perm_p_holm": 0.0196
+        },
+        "betweenness": {
+          "partial_rho": 0.2042,
+          "perm_p_raw": 0.161,
+          "ci_075": [
+            -0.1082,
+            0.4319
+          ],
+          "se_075": 0.1389,
+          "perm_p_holm": 0.1906
+        },
+        "clustering": {
+          "partial_rho": 0.244,
+          "perm_p_raw": 0.0953,
+          "ci_075": [
+            -0.1736,
+            0.5545
+          ],
+          "se_075": 0.1918,
+          "perm_p_holm": 0.1906
+        },
+        "eigenvector": {
+          "partial_rho": 0.3234,
+          "perm_p_raw": 0.0252,
+          "ci_075": [
+            -0.0312,
+            0.5199
+          ],
+          "se_075": 0.1407,
+          "perm_p_holm": 0.0756
+        }
+      },
+      "slope_dem_p90": {
+        "degree": {
+          "partial_rho": 0.3193,
+          "perm_p_raw": 0.028,
+          "ci_075": [
+            -0.0037,
+            0.6053
+          ],
+          "se_075": 0.1593,
+          "perm_p_holm": 0.112
+        },
+        "betweenness": {
+          "partial_rho": 0.1356,
+          "perm_p_raw": 0.3569,
+          "ci_075": [
+            -0.1752,
+            0.4346
+          ],
+          "se_075": 0.1579,
+          "perm_p_holm": 0.3569
+        },
+        "clustering": {
+          "partial_rho": 0.2381,
+          "perm_p_raw": 0.1041,
+          "ci_075": [
+            -0.2011,
+            0.5946
+          ],
+          "se_075": 0.2048,
+          "perm_p_holm": 0.2166
+        },
+        "eigenvector": {
+          "partial_rho": 0.2628,
+          "perm_p_raw": 0.0722,
+          "ci_075": [
+            -0.1117,
+            0.5219
+          ],
+          "se_075": 0.1642,
+          "perm_p_holm": 0.2166
+        }
+      },
+      "frac_pixels_over_25deg": {
+        "degree": {
+          "partial_rho": 0.2946,
+          "perm_p_raw": 0.0434,
+          "ci_075": [
+            -0.0473,
+            0.5789
+          ],
+          "se_075": 0.1612,
+          "perm_p_holm": 0.1736
+        },
+        "betweenness": {
+          "partial_rho": 0.1793,
+          "perm_p_raw": 0.2236,
+          "ci_075": [
+            -0.1497,
+            0.4703
+          ],
+          "se_075": 0.1665,
+          "perm_p_holm": 0.2778
+        },
+        "clustering": {
+          "partial_rho": 0.2463,
+          "perm_p_raw": 0.0926,
+          "ci_075": [
+            -0.1359,
+            0.5964
+          ],
+          "se_075": 0.1904,
+          "perm_p_holm": 0.2778
+        },
+        "eigenvector": {
+          "partial_rho": 0.2439,
+          "perm_p_raw": 0.0926,
+          "ci_075": [
+            -0.1026,
+            0.4837
+          ],
+          "se_075": 0.1491,
+          "perm_p_holm": 0.2778
+        }
+      },
+      "elev_mean": {
+        "degree": {
+          "partial_rho": 0.5058,
+          "perm_p_raw": 0.0001,
+          "ci_075": [
+            0.2758,
+            0.6832
+          ],
+          "se_075": 0.1051,
+          "perm_p_holm": 0.0004
+        },
+        "betweenness": {
+          "partial_rho": 0.3466,
+          "perm_p_raw": 0.0155,
+          "ci_075": [
+            0.0713,
+            0.5214
+          ],
+          "se_075": 0.1136,
+          "perm_p_holm": 0.031
+        },
+        "clustering": {
+          "partial_rho": 0.2403,
+          "perm_p_raw": 0.1001,
+          "ci_075": [
+            -0.1368,
+            0.4914
+          ],
+          "se_075": 0.164,
+          "perm_p_holm": 0.1001
+        },
+        "eigenvector": {
+          "partial_rho": 0.4975,
+          "perm_p_raw": 0.0003,
+          "ci_075": [
+            0.2443,
+            0.6534
+          ],
+          "se_075": 0.1065,
+          "perm_p_holm": 0.0009
+        }
+      },
+      "aug2018_rain_mm": {
+        "degree": {
+          "partial_rho": -0.2453,
+          "perm_p_raw": 0.0927,
+          "ci_075": [
+            -0.4798,
+            0.2075
+          ],
+          "se_075": 0.1702,
+          "perm_p_holm": 0.1854
+        },
+        "betweenness": {
+          "partial_rho": -0.2858,
+          "perm_p_raw": 0.0451,
+          "ci_075": [
+            -0.4422,
+            -0.0546
+          ],
+          "se_075": 0.0945,
+          "perm_p_holm": 0.1353
+        },
+        "clustering": {
+          "partial_rho": -0.1736,
+          "perm_p_raw": 0.2452,
+          "ci_075": [
+            -0.5538,
+            0.2423
+          ],
+          "se_075": 0.2003,
+          "perm_p_holm": 0.2452
+        },
+        "eigenvector": {
+          "partial_rho": -0.3086,
+          "perm_p_raw": 0.0309,
+          "ci_075": [
+            -0.6028,
+            0.1146
+          ],
+          "se_075": 0.19,
+          "perm_p_holm": 0.1236
+        }
+      },
+      "all_combined": {
+        "degree": {
+          "partial_rho": 0.218,
+          "perm_p_raw": 0.1297,
+          "ci_075": [
+            -0.0087,
+            0.5995
+          ],
+          "se_075": 0.144,
+          "perm_p_holm": 0.3891
+        },
+        "betweenness": {
+          "partial_rho": 0.0901,
+          "perm_p_raw": 0.5454,
+          "ci_075": [
+            -0.181,
+            0.4916
+          ],
+          "se_075": 0.1611,
+          "perm_p_holm": 0.5454
+        },
+        "clustering": {
+          "partial_rho": 0.1682,
+          "perm_p_raw": 0.2518,
+          "ci_075": [
+            -0.319,
+            0.6522
+          ],
+          "se_075": 0.2567,
+          "perm_p_holm": 0.5036
+        },
+        "eigenvector": {
+          "partial_rho": 0.2528,
+          "perm_p_raw": 0.0814,
+          "ci_075": [
+            0.0381,
+            0.6302
+          ],
+          "se_075": 0.1435,
+          "perm_p_holm": 0.3256
+        }
+      }
+    },
+    "morans_i": {
+      "morans_i": 0.0511,
+      "permutation_p": 0.4194,
+      "expected_i": -0.0213,
+      "std_i": 0.061
+    },
+    "tercile_stratification": {
+      "bins": [
+        0.89,
+        5.01,
+        10.37,
+        19.58
+      ],
+      "strata": {
+        "Low": {
+          "N": 16,
+          "metrics": {
+            "degree": {
+              "rho": -0.4372,
+              "p": 0.0904
+            },
+            "betweenness": {
+              "rho": -0.6252,
+              "p": 0.0096
+            },
+            "clustering": {
+              "rho": 0.2991,
+              "p": 0.2604
+            },
+            "eigenvector": {
+              "rho": -0.387,
+              "p": 0.1387
+            }
+          }
+        },
+        "Medium": {
+          "N": 16,
+          "metrics": {
+            "degree": {
+              "rho": 0.8343,
+              "p": 0.0001
+            },
+            "betweenness": {
+              "rho": 0.7109,
+              "p": 0.002
+            },
+            "clustering": {
+              "rho": -0.0111,
+              "p": 0.9673
+            },
+            "eigenvector": {
+              "rho": 0.7573,
+              "p": 0.0007
+            }
+          }
+        },
+        "High": {
+          "N": 16,
+          "metrics": {
+            "degree": {
+              "rho": -0.0232,
+              "p": 0.9321
+            },
+            "betweenness": {
+              "rho": -0.266,
+              "p": 0.3194
+            },
+            "clustering": {
+              "rho": 0.3974,
+              "p": 0.1274
+            },
+            "eigenvector": {
+              "rho": 0.062,
+              "p": 0.8196
+            }
+          }
+        }
+      }
+    }
+  },
+  "all_97": {
+    "N": 97,
+    "label": "All-97 (Sensitivity Check, Buffer Cells Unsurveyed)",
+    "plain_spearman": {
+      "centrality_vs_slope": {
+        "degree": {
+          "rho": -0.3488,
+          "p": 0.0005
+        },
+        "betweenness": {
+          "rho": -0.2454,
+          "p": 0.0154
+        },
+        "clustering": {
+          "rho": -0.3955,
+          "p": 0.0001
+        },
+        "eigenvector": {
+          "rho": -0.3822,
+          "p": 0.0001
+        }
+      },
+      "centrality_vs_landslides": {
+        "degree": {
+          "rho": 0.0595,
+          "p": 0.5627
+        },
+        "betweenness": {
+          "rho": 0.0588,
+          "p": 0.5673
+        },
+        "clustering": {
+          "rho": -0.0283,
+          "p": 0.7831
+        },
+        "eigenvector": {
+          "rho": 0.0005,
+          "p": 0.9958
+        }
+      },
+      "slope_vs_landslides": {
+        "rho": 0.6838,
+        "p": 0.0
+      }
+    },
+    "partial_spearman_controls": {
+      "slope_dem_mean": {
+        "degree": {
+          "partial_rho": 0.4357,
+          "perm_p_raw": 0.0,
+          "ci_075": [
+            0.1616,
+            0.5959
+          ],
+          "se_075": 0.1081,
+          "perm_p_holm": 0.0
+        },
+        "betweenness": {
+          "partial_rho": 0.3203,
+          "perm_p_raw": 0.0012,
+          "ci_075": [
+            0.0403,
+            0.5146
+          ],
+          "se_075": 0.1191,
+          "perm_p_holm": 0.0012
+        },
+        "clustering": {
+          "partial_rho": 0.3612,
+          "perm_p_raw": 0.0003,
+          "ci_075": [
+            0.1717,
+            0.5127
+          ],
+          "se_075": 0.0869,
+          "perm_p_holm": 0.0006
+        },
+        "eigenvector": {
+          "partial_rho": 0.3883,
+          "perm_p_raw": 0.0,
+          "ci_075": [
+            0.1442,
+            0.5327
+          ],
+          "se_075": 0.0982,
+          "perm_p_holm": 0.0
+        }
+      },
+      "slope_dem_p90": {
+        "degree": {
+          "partial_rho": 0.3901,
+          "perm_p_raw": 0.0002,
+          "ci_075": [
+            0.1302,
+            0.5289
+          ],
+          "se_075": 0.1,
+          "perm_p_holm": 0.0008
+        },
+        "betweenness": {
+          "partial_rho": 0.2784,
+          "perm_p_raw": 0.0059,
+          "ci_075": [
+            0.0056,
+            0.454
+          ],
+          "se_075": 0.1121,
+          "perm_p_holm": 0.0059
+        },
+        "clustering": {
+          "partial_rho": 0.3433,
+          "perm_p_raw": 0.0005,
+          "ci_075": [
+            0.174,
+            0.4607
+          ],
+          "se_075": 0.0738,
+          "perm_p_holm": 0.0015
+        },
+        "eigenvector": {
+          "partial_rho": 0.3493,
+          "perm_p_raw": 0.0007,
+          "ci_075": [
+            0.1219,
+            0.5014
+          ],
+          "se_075": 0.0957,
+          "perm_p_holm": 0.0015
+        }
+      },
+      "frac_pixels_over_25deg": {
+        "degree": {
+          "partial_rho": 0.4181,
+          "perm_p_raw": 0.0001,
+          "ci_075": [
+            0.179,
+            0.5642
+          ],
+          "se_075": 0.0966,
+          "perm_p_holm": 0.0004
+        },
+        "betweenness": {
+          "partial_rho": 0.3383,
+          "perm_p_raw": 0.0008,
+          "ci_075": [
+            0.1204,
+            0.4852
+          ],
+          "se_075": 0.0937,
+          "perm_p_holm": 0.001
+        },
+        "clustering": {
+          "partial_rho": 0.3512,
+          "perm_p_raw": 0.0005,
+          "ci_075": [
+            0.1781,
+            0.4805
+          ],
+          "se_075": 0.0795,
+          "perm_p_holm": 0.001
+        },
+        "eigenvector": {
+          "partial_rho": 0.366,
+          "perm_p_raw": 0.0003,
+          "ci_075": [
+            0.1312,
+            0.523
+          ],
+          "se_075": 0.1008,
+          "perm_p_holm": 0.0009
+        }
+      },
+      "elev_mean": {
+        "degree": {
+          "partial_rho": 0.4198,
+          "perm_p_raw": 0.0002,
+          "ci_075": [
+            0.1845,
+            0.5568
+          ],
+          "se_075": 0.0964,
+          "perm_p_holm": 0.0008
+        },
+        "betweenness": {
+          "partial_rho": 0.3328,
+          "perm_p_raw": 0.0007,
+          "ci_075": [
+            0.0604,
+            0.5091
+          ],
+          "se_075": 0.1147,
+          "perm_p_holm": 0.0014
+        },
+        "clustering": {
+          "partial_rho": 0.3155,
+          "perm_p_raw": 0.0016,
+          "ci_075": [
+            0.1003,
+            0.4697
+          ],
+          "se_075": 0.0944,
+          "perm_p_holm": 0.0016
+        },
+        "eigenvector": {
+          "partial_rho": 0.3867,
+          "perm_p_raw": 0.0002,
+          "ci_075": [
+            0.1472,
+            0.5424
+          ],
+          "se_075": 0.1003,
+          "perm_p_holm": 0.0008
+        }
+      },
+      "aug2018_rain_mm": {
+        "degree": {
+          "partial_rho": -0.1703,
+          "perm_p_raw": 0.0931,
+          "ci_075": [
+            -0.4074,
+            0.1307
+          ],
+          "se_075": 0.1335,
+          "perm_p_holm": 0.1862
+        },
+        "betweenness": {
+          "partial_rho": -0.1361,
+          "perm_p_raw": 0.1845,
+          "ci_075": [
+            -0.3444,
+            0.1242
+          ],
+          "se_075": 0.1172,
+          "perm_p_holm": 0.1862
+        },
+        "clustering": {
+          "partial_rho": -0.2738,
+          "perm_p_raw": 0.0077,
+          "ci_075": [
+            -0.4709,
+            -0.0043
+          ],
+          "se_075": 0.1219,
+          "perm_p_holm": 0.0308
+        },
+        "eigenvector": {
+          "partial_rho": -0.2206,
+          "perm_p_raw": 0.03,
+          "ci_075": [
+            -0.4678,
+            0.131
+          ],
+          "se_075": 0.1548,
+          "perm_p_holm": 0.09
+        }
+      },
+      "all_combined": {
+        "degree": {
+          "partial_rho": 0.2572,
+          "perm_p_raw": 0.0105,
+          "ci_075": [
+            0.0288,
+            0.462
+          ],
+          "se_075": 0.1088,
+          "perm_p_holm": 0.042
+        },
+        "betweenness": {
+          "partial_rho": 0.1568,
+          "perm_p_raw": 0.1254,
+          "ci_075": [
+            -0.0365,
+            0.3567
+          ],
+          "se_075": 0.0952,
+          "perm_p_holm": 0.2456
+        },
+        "clustering": {
+          "partial_rho": 0.156,
+          "perm_p_raw": 0.1228,
+          "ci_075": [
+            -0.0921,
+            0.356
+          ],
+          "se_075": 0.1115,
+          "perm_p_holm": 0.2456
+        },
+        "eigenvector": {
+          "partial_rho": 0.2003,
+          "perm_p_raw": 0.0459,
+          "ci_075": [
+            -0.0389,
+            0.3919
+          ],
+          "se_075": 0.11,
+          "perm_p_holm": 0.1377
+        }
+      }
+    },
+    "morans_i": {
+      "morans_i": 0.1432,
+      "permutation_p": 0.001,
+      "expected_i": -0.0104,
+      "std_i": 0.0376
+    },
+    "tercile_stratification": {
+      "bins": [
+        0.0,
+        2.74,
+        8.31,
+        19.58
+      ],
+      "strata": {
+        "Low": {
+          "N": 33,
+          "metrics": {
+            "degree": {
+              "rho": -0.084,
+              "p": 0.6422
+            },
+            "betweenness": {
+              "rho": 0.0374,
+              "p": 0.8363
+            },
+            "clustering": {
+              "rho": 0.0,
+              "p": 1.0
+            },
+            "eigenvector": {
+              "rho": -0.149,
+              "p": 0.408
+            }
+          }
+        },
+        "Medium": {
+          "N": 32,
+          "metrics": {
+            "degree": {
+              "rho": 0.5861,
+              "p": 0.0004
+            },
+            "betweenness": {
+              "rho": 0.4309,
+              "p": 0.0138
+            },
+            "clustering": {
+              "rho": 0.2992,
+              "p": 0.0962
+            },
+            "eigenvector": {
+              "rho": 0.5183,
+              "p": 0.0024
+            }
+          }
+        },
+        "High": {
+          "N": 32,
+          "metrics": {
+            "degree": {
+              "rho": 0.3302,
+              "p": 0.0649
+            },
+            "betweenness": {
+              "rho": 0.1875,
+              "p": 0.3041
+            },
+            "clustering": {
+              "rho": 0.3578,
+              "p": 0.0444
+            },
+            "eigenvector": {
+              "rho": 0.4475,
+              "p": 0.0102
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -68,37 +68,53 @@ Phase 1 focused on building the mathematical formulation, pipeline infrastructur
 
 ---
 
-## 4. Phase 2 (Term 2) — Proposed Scope & Next Steps
+## 4. Phase 2 (Term 2) — Revised Core: Periyar Basin Case Study
 
-Phase 2 will transition the project from **diagnostic/structural network analysis** to **predictive modeling, dynamic forecasting, and decision-support operationalization**.
+Phase 2 focuses the broad statewide methodology down into an in-depth, defensible hydrological case study: **The Periyar Basin (Idukki to Ernakulam)**.
+
+### Research Question
+*Does the extreme-rainfall synchronization structure of the Periyar basin change during the catastrophic 2018 monsoon, and which cells/sub-regions are structurally critical for its connectivity?*
+
+### Why Periyar?
+- **High-Stakes Geography:** Kerala's longest river; hosts critical reservoirs (Idukki and Mullaperiyar dams); severely inundated in August 2018.
+- **Unified Narrative:** Spans high-elevation Western Ghats (landslide hotspots in Idukki) to coastal lowlands (urban flooding in Ernakulam/Kochi), tying Study A (robustness) and Study B (landslides) into a coherent, defensible story.
+- **Feasible Scope:** A focused single-basin study provides high scientific rigor and defensibility for a BTP defense.
 
 ```
-Phase 1 (Completed)                     Phase 2 (Proposed Roadmap)
-┌─────────────────────────┐             ┌─────────────────────────┐
-│ • Historical IMD 1981-20│             │ • Sub-seasonal Forecasts│
-│ • Static ES Matrix      │   ──────►   │ • Time-varying Networks │
-│ • Structural Robustness │             │ • GNN / Spatio-Temporal │
-│ • 2018 Landslide Align  │             │ • Early Warning Index   │
-│ • Interactive GIS UI    │             │ • Policy & Cloud Deploy │
-└─────────────────────────┘             └─────────────────────────┘
+Phase 1 (Completed)                     Phase 2 Core: Periyar Basin Case Study
+┌─────────────────────────┐             ┌───────────────────────────────────────────┐
+│ • Statewide Grid (103)  │             │ 1. Extract Periyar Subnetwork vs. Null    │
+│ • Static ES Matrix      │   ──────►   │ 2. Event-Window: 2018 vs. Climatology     │
+│ • State Robustness (A)  │             │ 3. Within-Basin Robustness & Percolation  │
+│ • Landslide Valid. (B)  │             │ 4. Upper-Basin Landslide Controls (v2)    │
+│ • Full GIS Dashboard    │             │ 5. Dedicated "Periyar" Dashboard View     │
+└─────────────────────────┘             └───────────────────────────────────────────┘
 ```
 
-### Milestone 1: Dynamic & Time-Varying Climate Networks
-* **Moving-Window Network Analysis:** Replace the aggregate 40-year static network with dynamic 30-day sliding window networks for individual monsoon seasons (e.g., comparing drought years like 2016 vs. mega-flood years like 2018 and 2019).
-* **Lead-Lag Directed Teleconnections:** Incorporate directed synchrony delays to trace the spatial propagation vectors of rainstorms traveling from south to north along the coast and Western Ghats.
+### Core Components
+1. **Basin Subnetwork & Null Model:**
+   - Extract Periyar cells from the existing grid (`grid.py`).
+   - Compare subnetwork link density, clustering, and centrality distributions against a null model of randomly sampled, same-sized cell subsets from the statewide network.
+2. **Event-Window Comparative Analysis:**
+   - Construct ES networks for (a) Climatological baseline (JJAS 1981–2017) and (b) Monsoon 2018 (specifically the 1–31 August 2018 window).
+   - Track link density shifts and hub rank shifts using permutation/shuffle null tests to ensure changes are not small-sample noise.
+3. **Within-Basin Robustness:**
+   - Restrict the node removal experiments (`robustness.py`) strictly to the Periyar subgraph.
+   - Determine the basin's percolation threshold and pinpoint intra-basin bottleneck cells.
+4. **Upper-Basin Landslide Controls (Study B v2):**
+   - Apply the Study B v2 ladder (`landslide_controls.py`) with spatial block bootstrapping on upper Periyar catchment cells.
+5. **Interactive Dashboard Extension:**
+   - Add a dedicated **"Periyar Basin"** page to the React UI displaying the subnetwork map, 2018 vs. climatology delta, and critical cells.
 
-### Milestone 2: Machine Learning & Graph Neural Network (GNN) Risk Prediction
-* **Spatio-Temporal Graph Neural Networks (ST-GNN):** Use the adjacency matrix created in Phase 1 as the graph topology for a GNN/LSTM hybrid model to predict 24h–72h localized extreme precipitation and flash flood risks.
-* **Multi-Factor Susceptibility Model:** Integrate additional physical covariates into each node: soil moisture indices (SMAP/ERA5-Land), lithology, land-use land-cover (LULC), and cumulative antecedent rainfall.
+### Honest Scientific Limitations & Risks
+- **Spatial Resolution:** Periyar spans a moderate number of 0.25° cells; spatial buffers and bootstrap confidence intervals will be reported, avoiding over-claiming.
+- **Single-Year Event:** 2018 is treated strictly as an extreme historical case study, not a universal climatological law.
+- **Topological vs. Hydrological:** Network synchrony reflects meteorological teleconnections, not physical channel hydraulic routing.
 
-### Milestone 3: Real-Time Early Warning & Critical Node Alert System
-* **Network-Based Early Warning Indicator:** Develop an automated metric (e.g., rapid spike in regional clustering coefficient or sudden drop in network diameter) that flags imminent synchronized convective storms 2–3 days in advance.
-* **Basin-Wise Vulnerability Index (B-VI):** Deliver a composite vulnerability score for Kerala's 44 river basins, assisting Kerala State Disaster Management Authority (KSDMA) and dam operators (e.g., Idukki and Mullaperiyar reservoir water release scheduling).
-
-### Milestone 4: Production Deployment & Policy Toolkit
-* **Automated Data Ingestion:** Connect pipeline to IMD real-time API or GPM (Global Precipitation Measurement) satellite feeds.
-* **Public Cloud Deployment:** Containerize the pipeline and UI with Docker, deploying to a cloud hosting platform (e.g., Vercel / AWS) with public access.
-* **Academic Publication:** Format results for submission to a peer-reviewed geosciences / complex systems journal (e.g., *Chaos*, *Nonlinear Processes in Geophysics*, or *Scientific Reports*).
+### Future Work (Post-BTP / Extension)
+- Spatio-temporal Graph Neural Networks (ST-GNN) for predictive rainfall forecasting.
+- Real-time automated early-warning alerts and cloud microservice deployment.
+- Dam inflow/discharge correlation and flood-damage layer integration.
 
 ---
 

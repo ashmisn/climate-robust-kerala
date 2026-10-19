@@ -1,0 +1,10 @@
+basin_id,basin_name,n_cells,is_tagged_named_basin,percentage
+basin_periyar,Periyar,10,True,9.71
+basin_bharathapuzha,Bharathapuzha,7,True,6.8
+basin_chaliyar,Chaliyar,5,True,4.85
+basin_achankovil,Achankovil,3,True,2.91
+basin_chalakudy,Chalakudy,3,True,2.91
+basin_pamba,Pamba,3,True,2.91
+basin_valapattanam,Valapattanam,3,True,2.91
+basin_kadalundi,Kadalundi,1,True,0.97
+other,Other / Coastal Buffer,68,False,66.02

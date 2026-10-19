@@ -1,20 +1,20 @@
 {
-  "90_vs_95": {
-    "overlap_count_top15": 3,
-    "jaccard_overlap": 0.111,
-    "degree_rank_correlation": 0.406,
-    "betweenness_rank_correlation": 0.307
+  "p90_vs_p95": {
+    "overlap_count_top15": 11,
+    "jaccard_overlap": 0.579,
+    "degree_rank_correlation": 0.906,
+    "betweenness_rank_correlation": 0.741
   },
-  "95_vs_97": {
-    "overlap_count_top15": 3,
-    "jaccard_overlap": 0.111,
-    "degree_rank_correlation": 0.557,
-    "betweenness_rank_correlation": 0.324
+  "p95_vs_p97": {
+    "overlap_count_top15": 12,
+    "jaccard_overlap": 0.667,
+    "degree_rank_correlation": 0.919,
+    "betweenness_rank_correlation": 0.767
   },
-  "90_vs_97": {
-    "overlap_count_top15": 1,
-    "jaccard_overlap": 0.034,
-    "degree_rank_correlation": 0.403,
-    "betweenness_rank_correlation": 0.174
+  "p90_vs_p97": {
+    "overlap_count_top15": 9,
+    "jaccard_overlap": 0.429,
+    "degree_rank_correlation": 0.863,
+    "betweenness_rank_correlation": 0.532
   }
 }

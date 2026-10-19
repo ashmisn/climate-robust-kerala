@@ -1,11 +1,21 @@
 {
   "study_area": "Kerala (+ Western Ghats buffer)",
-  "period": "1991-2020",
+  "period": "1981-2020",
   "season": "JJAS",
   "event_percentile": 95,
   "link_fraction": 0.05,
-  "n_cells": 103,
-  "n_links": 264,
-  "generated_at": "2026-09-21T09:27:57.601780+00:00",
-  "config_hash": "34386d4262c2"
+  "n_cells": 97,
+  "n_links": 232,
+  "generated_at": "2026-10-18T19:26:16.202326+00:00",
+  "config_hash": "19e666b5b9bf",
+  "data_mode": "REAL_IMD_1981_2020",
+  "provenance": {
+    "rainfall": "Real IMD gridded daily rainfall (1981-2020, 0.25 deg)",
+    "state_boundary": "GADM 4.1 Kerala State Level-1 boundary",
+    "districts": "Census of India 2011 district polygons",
+    "river_basins": "Central Water Commission / India-WRIS sub-basins",
+    "landslides_and_dem": "Pending real inventory and DEM",
+    "landslides": "GSI 2018 Catastrophic Landslide Inventory (4,728 initiation points)",
+    "dem": "CGIAR SRTM 90m v4.1 Seamless GeoTIFF Mosaic (independent terrain)"
+  }
 }

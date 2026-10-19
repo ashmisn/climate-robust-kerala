@@ -17,11 +17,25 @@ def load_config(config_path: str = "config.yaml") -> Dict[str, Any]:
     with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-def get_kerala_basin_definitions() -> List[Dict[str, Any]]:
+def get_kerala_basin_definitions(geojson_path: str = "data/raw/basins_real.geojson") -> List[Dict[str, Any]]:
     """
     Returns curated basin boundary polygons for major Kerala & Western Ghats river systems
     derived from India-WRIS hydrology.
     """
+    p = Path(geojson_path)
+    if p.exists():
+        with open(p, "r", encoding="utf-8") as f:
+            fc = json.load(f)
+        real_basins = []
+        for feat in fc.get("features", []):
+            real_basins.append({
+                "basin_id": feat["properties"]["basin_id"],
+                "name": feat["properties"].get("name", feat["properties"]["basin_id"]),
+                "coordinates": feat["geometry"]["coordinates"]
+            })
+        if len(real_basins) > 0:
+            return real_basins
+
     basins = [
         {
             "basin_id": "basin_periyar",

@@ -1,92 +1,92 @@
 [
   {
-    "cell_id": "c_007",
+    "cell_id": "c_060",
     "rank": 1,
-    "lcc_drop": 0.0337,
-    "basin_id": "other"
+    "lcc_drop": 0.0395,
+    "basin_id": "basin_varrar"
   },
   {
-    "cell_id": "c_016",
+    "cell_id": "c_055",
     "rank": 2,
-    "lcc_drop": 0.0337,
-    "basin_id": "other"
+    "lcc_drop": 0.0263,
+    "basin_id": "basin_varrar"
   },
   {
-    "cell_id": "c_032",
+    "cell_id": "c_006",
     "rank": 3,
-    "lcc_drop": 0.0337,
+    "lcc_drop": 0.0263,
     "basin_id": "basin_periyar"
   },
   {
-    "cell_id": "c_093",
+    "cell_id": "c_101",
     "rank": 4,
-    "lcc_drop": 0.0337,
-    "basin_id": "other"
+    "lcc_drop": 0.0263,
+    "basin_id": "basin_netravati"
   },
   {
-    "cell_id": "c_097",
+    "cell_id": "c_010",
     "rank": 5,
-    "lcc_drop": 0.0337,
-    "basin_id": "other"
-  },
-  {
-    "cell_id": "c_033",
-    "rank": 6,
-    "lcc_drop": 0.0225,
+    "lcc_drop": 0.0263,
     "basin_id": "basin_periyar"
   },
   {
     "cell_id": "c_024",
+    "rank": 6,
+    "lcc_drop": 0.0263,
+    "basin_id": "basin_periyar"
+  },
+  {
+    "cell_id": "c_003",
     "rank": 7,
-    "lcc_drop": 0.0225,
+    "lcc_drop": 0.0263,
     "basin_id": "basin_periyar"
   },
   {
-    "cell_id": "c_020",
+    "cell_id": "c_079",
     "rank": 8,
-    "lcc_drop": 0.0225,
-    "basin_id": "other"
+    "lcc_drop": 0.0263,
+    "basin_id": "basin_netravati"
   },
   {
-    "cell_id": "c_045",
+    "cell_id": "c_052",
     "rank": 9,
-    "lcc_drop": 0.0225,
+    "lcc_drop": 0.0132,
     "basin_id": "other"
   },
   {
-    "cell_id": "c_018",
+    "cell_id": "c_072",
     "rank": 10,
-    "lcc_drop": 0.0225,
-    "basin_id": "basin_pamba"
+    "lcc_drop": 0.0132,
+    "basin_id": "basin_varrar"
   },
   {
-    "cell_id": "c_049",
+    "cell_id": "c_030",
     "rank": 11,
-    "lcc_drop": 0.0225,
-    "basin_id": "basin_bharathapuzha"
-  },
-  {
-    "cell_id": "c_001",
-    "rank": 12,
-    "lcc_drop": 0.0225,
+    "lcc_drop": 0.0132,
     "basin_id": "other"
   },
   {
-    "cell_id": "c_086",
-    "rank": 13,
-    "lcc_drop": 0.0225,
-    "basin_id": "basin_valapattanam"
-  },
-  {
-    "cell_id": "c_027",
-    "rank": 14,
-    "lcc_drop": 0.0112,
+    "cell_id": "c_022",
+    "rank": 12,
+    "lcc_drop": 0.0132,
     "basin_id": "basin_periyar"
   },
   {
-    "cell_id": "c_059",
+    "cell_id": "c_031",
+    "rank": 13,
+    "lcc_drop": 0.0132,
+    "basin_id": "basin_periyar"
+  },
+  {
+    "cell_id": "c_047",
+    "rank": 14,
+    "lcc_drop": 0.0132,
+    "basin_id": "basin_varrar"
+  },
+  {
+    "cell_id": "c_058",
     "rank": 15,
-    "lcc_drop": 0.0112,
-    "basin_id": "basin_chaliyar"
+    "lcc_drop": 0.0132,
+    "basin_id": "other"
   }
 ]

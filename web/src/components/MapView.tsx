@@ -189,9 +189,17 @@ export const MapView: React.FC<MapViewProps> = ({
         ? '#94a3b8'
         : interpolateColor(rawVal, metricRange.min, metricRange.max, ramp);
 
-      const coords = feature.geometry.coordinates[0];
+      let coords: any = feature.geometry.coordinates[0];
+      if (typeof coords === 'string') {
+        try {
+          coords = JSON.parse(coords);
+        } catch {
+          return;
+        }
+      }
+      if (!Array.isArray(coords)) return;
       // Leaflet uses [lat, lon], GeoJSON uses [lon, lat]
-      const latLngs = coords.map(([lon, lat]) => [lat, lon] as [number, number]);
+      const latLngs = coords.map(([lon, lat]: [number, number]) => [lat, lon] as [number, number]);
 
       const polygon = L.polygon(latLngs, {
         fillColor,

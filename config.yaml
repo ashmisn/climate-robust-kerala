@@ -2,7 +2,7 @@
 # All scientific and pipeline parameters are declared here. No magic numbers in code.
 
 study_area: "Kerala (+ Western Ghats buffer)"
-period: "1991-2020"
+period: "1981-2020"
 season: "JJAS"
 random_seed: 42
 
@@ -44,9 +44,16 @@ landslide:
   slope_classes: ["Low", "Medium", "High"]  # Tertiles
   bootstrap_ci_samples: 1000
   bootstrap_alpha: 0.05
+  spatial_block_size_deg: 0.75
+  spatial_block_bootstrap_samples: 1000
 
 paths:
   raw_data_dir: "data/raw"
   interim_data_dir: "data/interim"
   processed_data_dir: "data/processed"
   web_data_dir: "web/public/data"
+  review_checks_dir: "outputs/review_checks"
+
+null_models:
+  n_draws: 1000
+  seed: 42

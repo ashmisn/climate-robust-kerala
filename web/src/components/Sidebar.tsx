@@ -63,7 +63,7 @@ export const Sidebar: React.FC = () => {
 
       {/* Footer Info in Sidebar */}
       <div className="hidden md:block p-4 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-400 dark:text-slate-500 space-y-1">
-        <div className="font-medium text-slate-600 dark:text-slate-300">Kerala Monsoon 1991–2020</div>
+        <div className="font-medium text-slate-600 dark:text-slate-300">Kerala Monsoon 1981–2020</div>
         <div>IMD 0.25° • India-WRIS • SRTM</div>
         <div className="pt-2 text-[10px] text-emerald-600 dark:text-emerald-400 font-mono">
           Reproducible Pipeline v1.0

@@ -34,7 +34,7 @@ export const MethodPage: React.FC = () => {
           <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 space-y-1">
             <div className="font-bold text-emerald-600 dark:text-emerald-400">1. Data Ingestion</div>
             <p className="text-slate-500 text-[11px]">
-              IMD 0.25° Daily Rainfall (1991–2020), India-WRIS River Basins, SRTM 30m DEM, and 2018 Landslide Inventory.
+              IMD 0.25° Daily Rainfall (1981–2020), India-WRIS River Basins, SRTM 30m DEM, and 2018 Landslide Inventory.
             </p>
           </div>
 

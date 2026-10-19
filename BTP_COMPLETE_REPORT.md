@@ -301,41 +301,56 @@ We built a zero-backend **React 18 + TypeScript + Vite + Tailwind CSS** web dash
 
 ---
 
-## 6. Phase 2 — What We Are Supposed To Do Next
+## 6. Phase 2 (Term 2) — Revised Core: Periyar Basin Case Study
 
-Phase 1 established **static, historical, diagnostic analysis**. Phase 2 transitions to **dynamic, predictive, and operationally deployable** capabilities.
+Phase 2 transitions the statewide Phase 1 framework into a focused, highly defensible regional case study: **The Periyar River Basin (Idukki to Ernakulam)**.
+
+### Research Question
+*Does the extreme-rainfall synchronization structure of the Periyar basin change during the catastrophic 2018 monsoon, and which cells/sub-regions are structurally critical for its connectivity?*
+
+### Why Periyar?
+- **Kerala's Hydrological Lifeline:** Hosts the state's largest hydroelectric and irrigation storage (Idukki and Mullaperiyar dams); experienced catastrophic overflow and flooding in August 2018.
+- **Unified Risk Transect:** Spans high-elevation Western Ghats highlands (landslide clusters in Idukki) to coastal lowlands (urban flooding in Ernakulam/Kochi), binding Study A (robustness) and Study B (landslides) into a single cohesive narrative.
+- **Methodological Feasibility:** A focused basin-level case study provides high scientific rigor and clarity, avoiding the unwieldy scope of state-wide temporal forecasting.
 
 ```
-Phase 1 (Completed)                       Phase 2 (Proposed)
-┌───────────────────────────┐             ┌───────────────────────────┐
-│ • 40-year aggregate IMD   │             │ • Season-by-season dynamic│
-│ • Static synchrony matrix │   ──────►   │ • Time-varying networks   │
-│ • Structural robustness   │             │ • GNN / Spatio-temporal   │
-│ • 2018 landslide correl.  │             │ • Early warning index     │
-│ • Interactive GIS UI      │             │ • Cloud deploy & publish  │
-└───────────────────────────┘             └───────────────────────────┘
+Phase 1 (Completed)                     Phase 2 Core: Periyar Basin Case Study
+┌─────────────────────────┐             ┌───────────────────────────────────────────┐
+│ • 40-year aggregate IMD │             │ 1. Basin Subnetwork vs. Random Null       │
+│ • Statewide ES Matrix   │   ──────►   │ 2. Event-Window: 2018 vs. Climatology     │
+│ • State Robustness (A)  │             │ 3. Within-Basin Robustness & Bottlenecks  │
+│ • Landslide Valid. (B)  │             │ 4. Upper-Basin Landslide Controls (v2)    │
+│ • Interactive GIS UI    │             │ 5. Dedicated "Periyar" Dashboard View     │
+└─────────────────────────┘             └───────────────────────────────────────────┘
 ```
 
-### Milestone 1: Dynamic & Time-Varying Climate Networks
-- **Sliding-window analysis:** Replace the 40-year aggregate static network with dynamic 30-day sliding window networks for individual monsoon seasons.
-- **Comparative network topology:** Compare the network structure during drought years (e.g., 2016) vs. mega-flood years (2018, 2019). Do the hubs shift? Does the network become denser before catastrophic events?
-- **Directed lead-lag teleconnections:** Incorporate synchrony delays to trace the spatial propagation path of rainstorms as they travel from south to north along the coast and up the Western Ghats.
-- **Precursor detection:** Identify whether specific topological signatures (sudden increase in clustering, decrease in path length) appear days before a synchronized extreme event — potential early warning signals.
+### Core Components
+1. **Basin Subnetwork & Null Comparison:**
+   - Extract the Periyar constituent cells from the grid (`grid.py`).
+   - Compare subnetwork link density, clustering coefficient, and centrality distributions against a null model of randomly sampled, same-sized cell subsets from the full Kerala network.
+2. **Event-Window Comparative Analysis:**
+   - Build separate ES networks for:
+     - (a) Climatological baseline (JJAS 1981–2017)
+     - (b) Extreme Monsoon 2018 (specifically the 1–31 August 2018 event window).
+   - Track shifts in link density and the rank order of central cells.
+   - Employ permutation/shuffle null models to ensure observed shifts are statistically robust and not small-sample artifacts.
+3. **Within-Basin Robustness & Bottlenecks:**
+   - Re-run node removal experiments (`robustness.py`) restricted strictly to the Periyar subgraph.
+   - Identify critical bottleneck cells and calculate the basin's percolation threshold.
+4. **Upper-Basin Landslide Controls (Study B v2):**
+   - Apply the Study B v2 ladder (`landslide_controls.py`) with spatial block bootstrapping on upper Periyar catchment cells.
+5. **Interactive Dashboard View:**
+   - Implement a dedicated **"Periyar Basin"** page on the dashboard featuring the subnetwork graph, 2018 vs. climatological delta choropleth, and critical cell callouts.
 
-### Milestone 2: Graph Neural Network (GNN) Risk Prediction
-- **Spatio-Temporal GNN model:** Use the Phase 1 adjacency matrix as the graph topology for a Graph Convolutional Network (GCN) or GraphSAGE model combined with LSTM/GRU temporal layers.
-- **Prediction target:** Forecast localized extreme rainfall probability 24–72 hours ahead at each grid cell.
-- **Multi-source feature integration:** Add physical covariates at each node beyond just rainfall — soil moisture (SMAP/ERA5-Land), lithology, land-use/land-cover (LULC), antecedent cumulative rainfall, sea surface temperature anomalies (Arabian Sea).
-- **Benchmark against baselines:** Compare GNN predictions against traditional methods (statistical downscaling, standalone LSTM, persistence forecast).
+### Honest Scientific Limitations & Risks
+- **Spatial Resolution:** Periyar spans a moderate number of 0.25° cells; spatial buffers and bootstrap confidence intervals will be reported, avoiding over-claiming.
+- **Single-Year Case Study:** 2018 is treated strictly as an extreme historical anomaly, not a generalized climatological law.
+- **Topological vs. Hydraulic:** Network synchrony models atmospheric teleconnections, not hydraulic river-channel discharge routing.
 
-### Milestone 3: Real-Time Early Warning System
-- **Network-based early warning index:** Formulate a composite metric that monitors real-time changes in network topology (e.g., rapid spike in regional clustering coefficient or sudden drop in network diameter) as a 2–3 day advance warning of synchronized cloudburst events.
-- **Basin Vulnerability Index (B-VI):** Operationalize the Phase 1 basin impact rankings into a real-time, continuously updated vulnerability score for each of Kerala's river basins. This directly supports KSDMA and dam operators (Idukki, Mullaperiyar reservoir release scheduling).
-
-### Milestone 4: Deployment & Publication
-- **Automated data ingestion:** Connect the pipeline to IMD's real-time API or NASA GPM (Global Precipitation Measurement) satellite feeds for live data.
-- **Cloud deployment:** Containerize the pipeline and dashboard with Docker; deploy to a public hosting platform (Vercel / AWS / GCP) with a public URL for demonstration.
-- **Academic publication:** Format the combined Phase 1 + Phase 2 results for submission to a peer-reviewed journal (target venues: *Chaos*, *Nonlinear Processes in Geophysics*, *Scientific Reports*, or *Journal of Hydrology*).
+### Future Work (Post-BTP Extensions)
+- Spatio-temporal Graph Neural Networks (ST-GNN) for predictive precipitation forecasting.
+- Real-time automated early-warning alerts and cloud microservice deployment.
+- Dam inflow/discharge correlation and flood-damage layer integration.
 
 ---
 
