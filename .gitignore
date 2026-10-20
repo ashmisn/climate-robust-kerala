@@ -33,3 +33,4 @@ Desktop.ini
 
 # Large binary rasters (SRTM tiles documented in data/raw/PROVENANCE.md)
 data/raw/srtm/*.tif
+data/landslide/
